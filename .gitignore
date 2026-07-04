@@ -16,5 +16,8 @@ venv/
 *.hy3
 *.zip
 
+# Vendored parser snapshot (build artifact; refresh via scripts/vendor-swimparse.sh)
+vendor/
+
 # OS
 .DS_Store

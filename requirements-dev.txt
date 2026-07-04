@@ -7,3 +7,8 @@ alembic==1.14.0
 # Optional: only needed to run the Postgres migration test (test_migrations.py)
 # against a real DB via CENSUS_TEST_DATABASE_URL. SQLite tests don't need it.
 psycopg[binary]>=3.2
+
+# Ingest service + its tests (FastAPI TestClient needs httpx; uploads need multipart).
+fastapi==0.115.6
+python-multipart==0.0.20
+httpx==0.28.1

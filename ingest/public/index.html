@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPSA Census — Ingest</title>
+  <link rel="stylesheet" href="https://css.gpsaswimming.org/gpsa-tools-common.css">
+  <style>
+    body { max-width: 46rem; margin: 2rem auto; padding: 0 1rem; }
+    .card { border: 1px solid #ccd; border-radius: 8px; padding: 1.25rem; margin-top: 1rem; }
+    label { font-weight: 600; display: block; margin-bottom: .35rem; }
+    input[type=text] { width: 100%; padding: .5rem; box-sizing: border-box; }
+    .row { display: flex; gap: .75rem; margin-top: 1rem; flex-wrap: wrap; }
+    button { background: #002366; color: #fff; border: 0; border-radius: 6px; padding: .6rem 1.1rem; cursor: pointer; }
+    button.secondary { background: #d9242b; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    pre { background: #f5f6fa; border-radius: 6px; padding: 1rem; overflow: auto; }
+    .muted { color: #667; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <h1>GPSA Census — Result Ingest</h1>
+  <p class="muted">Upload a dual-meet <code>.sd3</code> or <code>.hy3</code>. Preview first,
+    then commit. Birthdates are stripped at parse time — nothing DOB-bearing is stored.</p>
+
+  <div class="card">
+    <label for="file">Result file (.sd3 / .hy3)</label>
+    <input type="file" id="file" accept=".sd3,.hy3">
+    <label for="who" style="margin-top:1rem">Your name / source (optional)</label>
+    <input type="text" id="who" placeholder="e.g. jane@gpsaswimming.org">
+    <div class="row">
+      <button id="previewBtn" disabled>Preview</button>
+      <button id="commitBtn" class="secondary" disabled>Commit</button>
+    </div>
+  </div>
+
+  <div id="out" class="card" hidden>
+    <strong id="outTitle"></strong>
+    <pre id="outBody"></pre>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const fileEl = $('file'), previewBtn = $('previewBtn'), commitBtn = $('commitBtn');
+    fileEl.addEventListener('change', () => {
+      const has = fileEl.files.length > 0;
+      previewBtn.disabled = commitBtn.disabled = !has;
+    });
+
+    async function send(path) {
+      const f = fileEl.files[0];
+      if (!f) return;
+      const fd = new FormData();
+      fd.append('file', f);
+      if ($('who').value) fd.append('imported_by', $('who').value);
+      previewBtn.disabled = commitBtn.disabled = true;
+      const title = $('outTitle'), body = $('outBody'), out = $('out');
+      out.hidden = false; title.textContent = 'Working…'; body.textContent = '';
+      try {
+        const res = await fetch(path, { method: 'POST', body: fd });
+        const data = await res.json();
+        title.textContent = res.ok ? `${path} — OK` : `${path} — ${res.status} ${res.statusText}`;
+        body.textContent = JSON.stringify(res.ok ? data : (data.detail ?? data), null, 2);
+      } catch (e) {
+        title.textContent = 'Request failed'; body.textContent = String(e);
+      } finally {
+        previewBtn.disabled = commitBtn.disabled = false;
+      }
+    }
+    previewBtn.addEventListener('click', () => send('/preview'));
+    commitBtn.addEventListener('click', () => send('/commit'));
+  </script>
+</body>
+</html>

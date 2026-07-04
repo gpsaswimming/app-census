@@ -215,7 +215,10 @@ class ImportLog(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     meet_key: Mapped[str | None] = mapped_column(String(200), index=True)
-    meet_id: Mapped[int | None] = mapped_column(ForeignKey("meets.id"))
+    # Audit rows are append-only and outlive the meet they describe: when a meet
+    # is replaced (idempotent re-commit) the old row's meet_id is nulled, not
+    # blocked. The meet_key column preserves the logical link.
+    meet_id: Mapped[int | None] = mapped_column(ForeignKey("meets.id", ondelete="SET NULL"))
     source_filename: Mapped[str | None] = mapped_column(String(255))
     fmt: Mapped[str | None] = mapped_column("format", String(16))
     age_profile: Mapped[str | None] = mapped_column(String(32))

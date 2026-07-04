@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 import pytest
-from sqlalchemy import create_engine
+from conftest import make_sqlite_engine
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -28,7 +28,7 @@ def meet_json() -> dict:
 
 @pytest.fixture()
 def session() -> Session:
-    engine = create_engine("sqlite://")
+    engine = make_sqlite_engine()
     Base.metadata.create_all(engine)
     with Session(engine) as s:
         yield s

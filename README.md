@@ -49,31 +49,45 @@ presentation, and minimizes PII.
 ## Layout
 
 ```
-ingest/      FastAPI write side (parse → preview → confirm → commit)   [Phase 3]
+ingest/      FastAPI write side (preview + idempotent commit)          [Phase 3 ✓]
 dashboard/   Streamlit read side (analytics)                           [Phase 4]
-db/          SQLAlchemy models + Alembic migrations                    [Phase 2]
+db/          SQLAlchemy models + Alembic migrations                    [Phase 2 ✓]
 leagues/     league profiles passed into swimparse (gpsa.yaml)         [Phase 0 ✓]
 fixtures/    sanitized, DOB-free NormalizedMeet JSON for tests
-tests/       contract + unit tests
+tests/       contract + unit + end-to-end tests
 docker-compose.yml   local db + ingest + dashboard
 ```
 
 ## Status
 
-Phase 0 (this scaffold) is a runnable shell. Build order on the critical path:
-**0 → 2 → 3 → 4 → 5** (see `../app-census-migration-plan.md`).
+Phases 0, 2, 3 are done. Build order on the critical path: **0 → 2 → 3 → 4 → 5**
+(see `../app-census-migration-plan.md`).
+
+## Ingest
+
+Two endpoints, same pipeline (raw file → swimparse → validate → upsert):
+
+- `POST /preview` — dry run; returns a summary (teams, scores, counts). No write.
+- `POST /commit` — idempotent upsert keyed on `meet_key`; writes an `import_log`
+  audit row. Re-uploading the same meet updates it (no double-count).
+
+n8n posts to these directly; humans use the form at `GET /`. Auth is upstream
+(Pangolin) — the app implements none. The swimparse call strips birthdates, so
+every stored meet is DOB-free.
 
 ## Develop
 
 ```bash
-# Tests (no Docker needed)
+# Tests (no Docker needed; ingest tests also need Node + the sibling swimparse)
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements-dev.txt
 pytest
 
-# Full stack
+# Full stack (vendor the parser into the ingest image first)
+scripts/vendor-swimparse.sh
 docker compose up --build          # db:5432, ingest:8000, dashboard:8501
 curl localhost:8000/health
+curl -F file=@meet.sd3 localhost:8000/preview
 ```
 
 ## Privacy

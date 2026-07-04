@@ -43,6 +43,26 @@ def _season_of(meet: dict) -> int | None:
     return int(date[:4]) if date else None
 
 
+def get_or_create_athlete(session: Session, *, season, name_key, gender, age_group, team) -> Athlete:
+    """Fetch or create the season-scoped athlete for this identity.
+
+    Get-or-create (not blind insert) so re-ingesting a meet, or importing two
+    meets a swimmer appears in, reuses the one season row instead of tripping the
+    (season, name_key, gender, age_group, team) unique constraint.
+    """
+    team_id = team.id if team else None
+    a = (
+        session.query(Athlete)
+        .filter_by(season=season, name_key=name_key, gender=gender, age_group=age_group, team_id=team_id)
+        .one_or_none()
+    )
+    if a is None:
+        a = Athlete(season=season, name_key=name_key, gender=gender, age_group=age_group, team=team)
+        session.add(a)
+        session.flush()
+    return a
+
+
 def insert_meet(session: Session, meet: dict, *, imported_by: str | None = None) -> Meet:
     """Insert a DOB-free NormalizedMeet dict and return the persisted Meet.
 
@@ -93,17 +113,18 @@ def insert_meet(session: Session, meet: dict, *, imported_by: str | None = None)
     athletes_by_swid: dict[str, Athlete] = {}
     for s in meet.get("swimmers", []):
         team = teams_by_code.get(s.get("teamCode"))
-        a = Athlete(
+        a = get_or_create_athlete(
+            session,
             season=season,
             name_key=name_key(s.get("lastName"), s.get("firstName")),
-            last_name=s.get("lastName"),
-            first_name=s.get("firstName"),
-            full_name=s.get("fullName"),
             gender=s.get("gender"),
             age_group=s.get("ageGroup"),
             team=team,
         )
-        session.add(a)
+        # Backfill display fields (first time we see this athlete this season).
+        a.last_name = a.last_name or s.get("lastName")
+        a.first_name = a.first_name or s.get("firstName")
+        a.full_name = a.full_name or s.get("fullName")
         athletes_by_swid[s["id"]] = a
 
     for ev in meet.get("events", []):
