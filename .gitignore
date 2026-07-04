@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Env / secrets
+.env
+
+# PRIVACY: never commit raw meet-result files (they carry minors' DOBs).
+# Only sanitized fixtures belong in this public repo — see fixtures/README.md.
+*.sd3
+*.hy3
+*.zip
+
+# OS
+.DS_Store

@@ -1,0 +1,5 @@
+# Ingest service (FastAPI). Phase 3 will add the DB + swimparse-call deps
+# (sqlalchemy, psycopg, python-multipart). Kept minimal for the Phase 0 shell.
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pyyaml==6.0.2

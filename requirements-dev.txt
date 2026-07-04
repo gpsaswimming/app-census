@@ -1,0 +1,4 @@
+# Dev/test tooling (run tests without Docker). Service deps live in
+# ingest/requirements.txt and dashboard/requirements.txt.
+pyyaml==6.0.2
+pytest==8.3.4

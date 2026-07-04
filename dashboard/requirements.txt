@@ -1,0 +1,3 @@
+# Read-only Streamlit dashboard. Phase 4 adds the query/plot deps
+# (sqlalchemy, psycopg, pandas, plotly). Kept minimal for the Phase 0 shell.
+streamlit==1.41.1

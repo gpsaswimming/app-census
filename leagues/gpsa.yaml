@@ -1,0 +1,41 @@
+# GPSA league profile — the config contract for age-grouping and scoring.
+#
+# This is the single, human-editable source of truth for how GPSA groups
+# swimmers by age and awards dual-meet points. It is passed INTO swimparse
+# (app-tools/swimparse) at ingest time via `swimparse --league-file`, so the
+# rules live here as data, not baked into code.
+#
+# Keys mirror the swimparse profile shape EXACTLY (see
+# app-tools/swimparse/leagues/gpsa.json and src/league.js) so this YAML loads
+# straight into the parser with no remapping. tests/test_league_profile.py
+# guards that equality — edit both together, or the drift test fails.
+#
+# Season-stable: a summer league fixes one age-up date and keeps it. This profile
+# carries NO season — `ageUp.reference` is a bare month-day anchored to each
+# meet's own season year at compute time. If a rule ever genuinely changes, bump
+# `id` semantically (e.g. "gpsa-v2"), never by calendar year.
+
+id: gpsa
+
+# Age is figured "as of" this date. GPSA uses June 1 of the meet's season year.
+# Use "meet-date" instead to age swimmers as of the meet itself.
+ageUp:
+  reference: "06-01"
+
+# Ordered bands; the first whose [min, max] contains a swimmer's age wins.
+# `min` defaults to 0, `max` to infinity when omitted.
+ageGroups:
+  - { label: "6&U", max: 6 }
+  - { label: "7-8", min: 7, max: 8 }
+  - { label: "9-10", min: 9, max: 10 }
+  - { label: "11-12", min: 11, max: 12 }
+  - { label: "13-14", min: 13, max: 14 }
+  - { label: "15-18", min: 15, max: 18 }
+
+# Dual-meet point VALUES (indexed by place, 1st first). The structural rules
+# (single-gender numbered relays only; mixed 8&U "B" relays score 0; DQ/NS/
+# exhibition score 0) are engine policy in swimparse, not config.
+scoring:
+  individualPlaces: [5, 3, 1] # 1st / 2nd / 3rd; 4th+ = 0
+  relayPlaces: [7]            # winner only
+  entriesScoredPerTeam: 2     # league cap (source files already reflect it)

@@ -1,0 +1,51 @@
+# Local development stack for app-census.
+#
+#   db        — Postgres (the store; source of truth)
+#   ingest    — FastAPI write side (parse → preview → confirm → commit)
+#   dashboard — Streamlit read side (analytics)
+#
+# Ports bind to 127.0.0.1 only. Auth (Pangolin) sits in front in production;
+# it is not modeled here.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: census
+      POSTGRES_PASSWORD: census
+      POSTGRES_DB: census
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - census-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U census -d census"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  ingest:
+    build:
+      context: .
+      dockerfile: ingest/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://census:census@db:5432/census
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: dashboard/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://census:census@db:5432/census
+    ports:
+      - "127.0.0.1:8501:8501"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  census-db:

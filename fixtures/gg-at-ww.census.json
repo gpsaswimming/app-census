@@ -1,0 +1,7060 @@
+{
+  "format": "hy3",
+  "source": {
+    "software": "SwimTopia",
+    "createdAt": "2026-07-03"
+  },
+  "meet": {
+    "name": "2026 Glendale Gators at Wendwood Wahoos",
+    "rawName": "2026 Glendale Gators at Wendwood Wahoos",
+    "startDate": "2026-06-29"
+  },
+  "teams": [
+    {
+      "code": "WW",
+      "fullCode": "WW",
+      "name": "Wendwood Wahoos"
+    },
+    {
+      "code": "GG",
+      "fullCode": "GG",
+      "name": "Glendale Gators"
+    }
+  ],
+  "swimmers": [
+    {
+      "id": "einstein|albert|15-18",
+      "teamCode": "WW",
+      "lastName": "Einstein",
+      "firstName": "Albert",
+      "fullName": "Einstein, Albert",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "charles|ray|15-18",
+      "teamCode": "GG",
+      "lastName": "Charles",
+      "firstName": "Ray",
+      "fullName": "Charles, Ray",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "asimov|isaac|15-18",
+      "teamCode": "GG",
+      "lastName": "Asimov",
+      "firstName": "Isaac",
+      "fullName": "Asimov, Isaac",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "presley|elvis|15-18",
+      "teamCode": "GG",
+      "lastName": "Presley",
+      "firstName": "Elvis",
+      "fullName": "Presley, Elvis",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "newton|isaac|15-18",
+      "teamCode": "WW",
+      "lastName": "Newton",
+      "firstName": "Isaac",
+      "fullName": "Newton, Isaac",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "owens|jesse|15-18",
+      "teamCode": "GG",
+      "lastName": "Owens",
+      "firstName": "Jesse",
+      "fullName": "Owens, Jesse",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "sinatra|frank|15-18",
+      "teamCode": "GG",
+      "lastName": "Sinatra",
+      "firstName": "Frank",
+      "fullName": "Sinatra, Frank",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "roosevelt|franklin|15-18",
+      "teamCode": "GG",
+      "lastName": "Roosevelt",
+      "firstName": "Franklin",
+      "fullName": "Roosevelt, Franklin",
+      "gender": "M",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "vinci|leonardo|11-12",
+      "teamCode": "WW",
+      "lastName": "Vinci",
+      "firstName": "Leonardo",
+      "fullName": "Vinci, Leonardo",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "dickens|charles|6&u",
+      "teamCode": "GG",
+      "lastName": "Dickens",
+      "firstName": "Charles",
+      "fullName": "Dickens, Charles",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "federer|roger|6&u",
+      "teamCode": "GG",
+      "lastName": "Federer",
+      "firstName": "Roger",
+      "fullName": "Federer, Roger",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "hemingway|ernest|6&u",
+      "teamCode": "WW",
+      "lastName": "Hemingway",
+      "firstName": "Ernest",
+      "fullName": "Hemingway, Ernest",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "darwin|charles|6&u",
+      "teamCode": "WW",
+      "lastName": "Darwin",
+      "firstName": "Charles",
+      "fullName": "Darwin, Charles",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "edison|thomas|6&u",
+      "teamCode": "GG",
+      "lastName": "Edison",
+      "firstName": "Thomas",
+      "fullName": "Edison, Thomas",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "mercury|freddie|6&u",
+      "teamCode": "GG",
+      "lastName": "Mercury",
+      "firstName": "Freddie",
+      "fullName": "Mercury, Freddie",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "dali|salvador|6&u",
+      "teamCode": "GG",
+      "lastName": "Dali",
+      "firstName": "Salvador",
+      "fullName": "Dali, Salvador",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "goethe|johann|6&u",
+      "teamCode": "GG",
+      "lastName": "Goethe",
+      "firstName": "Johann",
+      "fullName": "Goethe, Johann",
+      "gender": "M",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "austen|jane|9-10",
+      "teamCode": "WW",
+      "lastName": "Austen",
+      "firstName": "Jane",
+      "fullName": "Austen, Jane",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "rowling|joanne|9-10",
+      "teamCode": "GG",
+      "lastName": "Rowling",
+      "firstName": "Joanne",
+      "fullName": "Rowling, Joanne",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "alcott|louisa|9-10",
+      "teamCode": "GG",
+      "lastName": "Alcott",
+      "firstName": "Louisa",
+      "fullName": "Alcott, Louisa",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "curie|marie|9-10",
+      "teamCode": "WW",
+      "lastName": "Curie",
+      "firstName": "Marie",
+      "fullName": "Curie, Marie",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "degeneres|ellen|11-12",
+      "teamCode": "GG",
+      "lastName": "Degeneres",
+      "firstName": "Ellen",
+      "fullName": "Degeneres, Ellen",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "jolie|angelina|11-12",
+      "teamCode": "GG",
+      "lastName": "Jolie",
+      "firstName": "Angelina",
+      "fullName": "Jolie, Angelina",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "keller|helen|9-10",
+      "teamCode": "WW",
+      "lastName": "Keller",
+      "firstName": "Helen",
+      "fullName": "Keller, Helen",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "parton|dolly|9-10",
+      "teamCode": "GG",
+      "lastName": "Parton",
+      "firstName": "Dolly",
+      "fullName": "Parton, Dolly",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "windsor|victoria|9-10",
+      "teamCode": "GG",
+      "lastName": "Windsor",
+      "firstName": "Victoria",
+      "fullName": "Windsor, Victoria",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "beauvoir|simone|6&u",
+      "teamCode": "GG",
+      "lastName": "Beauvoir",
+      "firstName": "Simone",
+      "fullName": "Beauvoir, Simone",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "earhart|amelia|6&u",
+      "teamCode": "WW",
+      "lastName": "Earhart",
+      "firstName": "Amelia",
+      "fullName": "Earhart, Amelia",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "johansson|scarlett|6&u",
+      "teamCode": "GG",
+      "lastName": "Johansson",
+      "firstName": "Scarlett",
+      "fullName": "Johansson, Scarlett",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "frank|anne|6&u",
+      "teamCode": "WW",
+      "lastName": "Frank",
+      "firstName": "Anne",
+      "fullName": "Frank, Anne",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "hepburn|audrey|6&u",
+      "teamCode": "WW",
+      "lastName": "Hepburn",
+      "firstName": "Audrey",
+      "fullName": "Hepburn, Audrey",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "lamarr|hedy|6&u",
+      "teamCode": "GG",
+      "lastName": "Lamarr",
+      "firstName": "Hedy",
+      "fullName": "Lamarr, Hedy",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "bronte|charlotte|6&u",
+      "teamCode": "GG",
+      "lastName": "Bronte",
+      "firstName": "Charlotte",
+      "fullName": "Bronte, Charlotte",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "oconnor|sandra|6&u",
+      "teamCode": "GG",
+      "lastName": "OConnor",
+      "firstName": "Sandra",
+      "fullName": "OConnor, Sandra",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "fitzgerald|ella|7-8",
+      "teamCode": "GG",
+      "lastName": "Fitzgerald",
+      "firstName": "Ella",
+      "fullName": "Fitzgerald, Ella",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "romanov|catherine|7-8",
+      "teamCode": "GG",
+      "lastName": "Romanov",
+      "firstName": "Catherine",
+      "fullName": "Romanov, Catherine",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "biles|simone|7-8",
+      "teamCode": "WW",
+      "lastName": "Biles",
+      "firstName": "Simone",
+      "fullName": "Biles, Simone",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "hamm|mia|7-8",
+      "teamCode": "WW",
+      "lastName": "Hamm",
+      "firstName": "Mia",
+      "fullName": "Hamm, Mia",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "ledecky|katie|7-8",
+      "teamCode": "GG",
+      "lastName": "Ledecky",
+      "firstName": "Katie",
+      "fullName": "Ledecky, Katie",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "winfrey|oprah|7-8",
+      "teamCode": "GG",
+      "lastName": "Winfrey",
+      "firstName": "Oprah",
+      "fullName": "Winfrey, Oprah",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "keaton|diane|6&u",
+      "teamCode": "GG",
+      "lastName": "Keaton",
+      "firstName": "Diane",
+      "fullName": "Keaton, Diane",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "dion|celine|6&u",
+      "teamCode": "GG",
+      "lastName": "Dion",
+      "firstName": "Celine",
+      "fullName": "Dion, Celine",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "bardot|brigitte|6&u",
+      "teamCode": "GG",
+      "lastName": "Bardot",
+      "firstName": "Brigitte",
+      "fullName": "Bardot, Brigitte",
+      "gender": "F",
+      "ageGroup": "6&U"
+    },
+    {
+      "id": "robinson|jackie|9-10",
+      "teamCode": "GG",
+      "lastName": "Robinson",
+      "firstName": "Jackie",
+      "fullName": "Robinson, Jackie",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "lincoln|abraham|9-10",
+      "teamCode": "WW",
+      "lastName": "Lincoln",
+      "firstName": "Abraham",
+      "fullName": "Lincoln, Abraham",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "gogh|vincent|9-10",
+      "teamCode": "WW",
+      "lastName": "Gogh",
+      "firstName": "Vincent",
+      "fullName": "Gogh, Vincent",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "armstrong|neil|9-10",
+      "teamCode": "GG",
+      "lastName": "Armstrong",
+      "firstName": "Neil",
+      "fullName": "Armstrong, Neil",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "picasso|pablo|9-10",
+      "teamCode": "WW",
+      "lastName": "Picasso",
+      "firstName": "Pablo",
+      "fullName": "Picasso, Pablo",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "disney|walt|9-10",
+      "teamCode": "GG",
+      "lastName": "Disney",
+      "firstName": "Walt",
+      "fullName": "Disney, Walt",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "phelps|michael|9-10",
+      "teamCode": "GG",
+      "lastName": "Phelps",
+      "firstName": "Michael",
+      "fullName": "Phelps, Michael",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "dostoevsky|fyodor|9-10",
+      "teamCode": "GG",
+      "lastName": "Dostoevsky",
+      "firstName": "Fyodor",
+      "fullName": "Dostoevsky, Fyodor",
+      "gender": "M",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "armstrong|louis|11-12",
+      "teamCode": "GG",
+      "lastName": "Armstrong",
+      "firstName": "Louis",
+      "fullName": "Armstrong, Louis",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "washington|george|11-12",
+      "teamCode": "WW",
+      "lastName": "Washington",
+      "firstName": "George",
+      "fullName": "Washington, George",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "douglass|frederick|11-12",
+      "teamCode": "WW",
+      "lastName": "Douglass",
+      "firstName": "Frederick",
+      "fullName": "Douglass, Frederick",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "galilei|galileo|11-12",
+      "teamCode": "GG",
+      "lastName": "Galilei",
+      "firstName": "Galileo",
+      "fullName": "Galilei, Galileo",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "shakespeare|william|11-12",
+      "teamCode": "WW",
+      "lastName": "Shakespeare",
+      "firstName": "William",
+      "fullName": "Shakespeare, William",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "bolt|usain|11-12",
+      "teamCode": "GG",
+      "lastName": "Bolt",
+      "firstName": "Usain",
+      "fullName": "Bolt, Usain",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "lee|bruce|11-12",
+      "teamCode": "GG",
+      "lastName": "Lee",
+      "firstName": "Bruce",
+      "fullName": "Lee, Bruce",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "hugo|victor|11-12",
+      "teamCode": "GG",
+      "lastName": "Hugo",
+      "firstName": "Victor",
+      "fullName": "Hugo, Victor",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "adams|ansel|11-12",
+      "teamCode": "GG",
+      "lastName": "Adams",
+      "firstName": "Ansel",
+      "fullName": "Adams, Ansel",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "lovelace|ada|13-14",
+      "teamCode": "WW",
+      "lastName": "Lovelace",
+      "firstName": "Ada",
+      "fullName": "Lovelace, Ada",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "morrison|toni|13-14",
+      "teamCode": "GG",
+      "lastName": "Morrison",
+      "firstName": "Toni",
+      "fullName": "Morrison, Toni",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "hayworth|rita|13-14",
+      "teamCode": "GG",
+      "lastName": "Hayworth",
+      "firstName": "Rita",
+      "fullName": "Hayworth, Rita",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "rudolph|wilma|13-14",
+      "teamCode": "WW",
+      "lastName": "Rudolph",
+      "firstName": "Wilma",
+      "fullName": "Rudolph, Wilma",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "carey|mariah|13-14",
+      "teamCode": "GG",
+      "lastName": "Carey",
+      "firstName": "Mariah",
+      "fullName": "Carey, Mariah",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "piaf|edith|13-14",
+      "teamCode": "GG",
+      "lastName": "Piaf",
+      "firstName": "Edith",
+      "fullName": "Piaf, Edith",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "dickinson|emily|9-10",
+      "teamCode": "WW",
+      "lastName": "Dickinson",
+      "firstName": "Emily",
+      "fullName": "Dickinson, Emily",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "thatcher|margaret|9-10",
+      "teamCode": "GG",
+      "lastName": "Thatcher",
+      "firstName": "Margaret",
+      "fullName": "Thatcher, Margaret",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "franklin|aretha|9-10",
+      "teamCode": "GG",
+      "lastName": "Franklin",
+      "firstName": "Aretha",
+      "fullName": "Franklin, Aretha",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "watson|emma|9-10",
+      "teamCode": "GG",
+      "lastName": "Watson",
+      "firstName": "Emma",
+      "fullName": "Watson, Emma",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "holiday|billie|9-10",
+      "teamCode": "GG",
+      "lastName": "Holiday",
+      "firstName": "Billie",
+      "fullName": "Holiday, Billie",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "lee|harper|9-10",
+      "teamCode": "GG",
+      "lastName": "Lee",
+      "firstName": "Harper",
+      "fullName": "Lee, Harper",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "weaver|sigourney|15-18",
+      "teamCode": "GG",
+      "lastName": "Weaver",
+      "firstName": "Sigourney",
+      "fullName": "Weaver, Sigourney",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "kahlo|frida|13-14",
+      "teamCode": "WW",
+      "lastName": "Kahlo",
+      "firstName": "Frida",
+      "fullName": "Kahlo, Frida",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "hopper|grace|13-14",
+      "teamCode": "WW",
+      "lastName": "Hopper",
+      "firstName": "Grace",
+      "fullName": "Hopper, Grace",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "knowles|beyonce|15-18",
+      "teamCode": "GG",
+      "lastName": "Knowles",
+      "firstName": "Beyonce",
+      "fullName": "Knowles, Beyonce",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "bello|michelle|13-14",
+      "teamCode": "GG",
+      "lastName": "Bello",
+      "firstName": "Michelle",
+      "fullName": "Bello, Michelle",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "williams|serena|13-14",
+      "teamCode": "WW",
+      "lastName": "Williams",
+      "firstName": "Serena",
+      "fullName": "Williams, Serena",
+      "gender": "F",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "king|billie|9-10",
+      "teamCode": "WW",
+      "lastName": "King",
+      "firstName": "Billie",
+      "fullName": "King, Billie",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "steinem|gloria|9-10",
+      "teamCode": "GG",
+      "lastName": "Steinem",
+      "firstName": "Gloria",
+      "fullName": "Steinem, Gloria",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "merkel|angela|9-10",
+      "teamCode": "GG",
+      "lastName": "Merkel",
+      "firstName": "Angela",
+      "fullName": "Merkel, Angela",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "sarandon|susan|9-10",
+      "teamCode": "GG",
+      "lastName": "Sarandon",
+      "firstName": "Susan",
+      "fullName": "Sarandon, Susan",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "angelou|maya|9-10",
+      "teamCode": "WW",
+      "lastName": "Angelou",
+      "firstName": "Maya",
+      "fullName": "Angelou, Maya",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "clinton|hillary|9-10",
+      "teamCode": "GG",
+      "lastName": "Clinton",
+      "firstName": "Hillary",
+      "fullName": "Clinton, Hillary",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "tereshkova|valentina|9-10",
+      "teamCode": "GG",
+      "lastName": "Tereshkova",
+      "firstName": "Valentina",
+      "fullName": "Tereshkova, Valentina",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "garland|judy|9-10",
+      "teamCode": "GG",
+      "lastName": "Garland",
+      "firstName": "Judy",
+      "fullName": "Garland, Judy",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "wonder|stevie|11-12",
+      "teamCode": "GG",
+      "lastName": "Wonder",
+      "firstName": "Stevie",
+      "fullName": "Wonder, Stevie",
+      "gender": "M",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "davis|bette|11-12",
+      "teamCode": "GG",
+      "lastName": "Davis",
+      "firstName": "Bette",
+      "fullName": "Davis, Bette",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "franklin|rosalind|11-12",
+      "teamCode": "GG",
+      "lastName": "Franklin",
+      "firstName": "Rosalind",
+      "fullName": "Franklin, Rosalind",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "potter|beatrix|11-12",
+      "teamCode": "GG",
+      "lastName": "Potter",
+      "firstName": "Beatrix",
+      "fullName": "Potter, Beatrix",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "ciccone|madonna|11-12",
+      "teamCode": "GG",
+      "lastName": "Ciccone",
+      "firstName": "Madonna",
+      "fullName": "Ciccone, Madonna",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "yousafzai|malala|11-12",
+      "teamCode": "GG",
+      "lastName": "Yousafzai",
+      "firstName": "Malala",
+      "fullName": "Yousafzai, Malala",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "pavlova|anna|11-12",
+      "teamCode": "GG",
+      "lastName": "Pavlova",
+      "firstName": "Anna",
+      "fullName": "Pavlova, Anna",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "kelly|grace|11-12",
+      "teamCode": "GG",
+      "lastName": "Kelly",
+      "firstName": "Grace",
+      "fullName": "Kelly, Grace",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "gandhi|indira|7-8",
+      "teamCode": "GG",
+      "lastName": "Gandhi",
+      "firstName": "Indira",
+      "fullName": "Gandhi, Indira",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "jemison|mae|7-8",
+      "teamCode": "GG",
+      "lastName": "Jemison",
+      "firstName": "Mae",
+      "fullName": "Jemison, Mae",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "monroe|marilyn|7-8",
+      "teamCode": "WW",
+      "lastName": "Monroe",
+      "firstName": "Marilyn",
+      "fullName": "Monroe, Marilyn",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "hepburn|katharine|9-10",
+      "teamCode": "WW",
+      "lastName": "Hepburn",
+      "firstName": "Katharine",
+      "fullName": "Hepburn, Katharine",
+      "gender": "F",
+      "ageGroup": "9-10"
+    },
+    {
+      "id": "comaneci|nadia|7-8",
+      "teamCode": "GG",
+      "lastName": "Comaneci",
+      "firstName": "Nadia",
+      "fullName": "Comaneci, Nadia",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "stone|emma|7-8",
+      "teamCode": "GG",
+      "lastName": "Stone",
+      "firstName": "Emma",
+      "fullName": "Stone, Emma",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "houston|whitney|7-8",
+      "teamCode": "GG",
+      "lastName": "Houston",
+      "firstName": "Whitney",
+      "fullName": "Houston, Whitney",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "taylor|elizabeth|7-8",
+      "teamCode": "GG",
+      "lastName": "Taylor",
+      "firstName": "Elizabeth",
+      "fullName": "Taylor, Elizabeth",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "foster|jodie|7-8",
+      "teamCode": "GG",
+      "lastName": "Foster",
+      "firstName": "Jodie",
+      "fullName": "Foster, Jodie",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "lawrence|jennifer|7-8",
+      "teamCode": "GG",
+      "lastName": "Lawrence",
+      "firstName": "Jennifer",
+      "fullName": "Lawrence, Jennifer",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "tubman|harriet|7-8",
+      "teamCode": "GG",
+      "lastName": "Tubman",
+      "firstName": "Harriet",
+      "fullName": "Tubman, Harriet",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "ride|sally|7-8",
+      "teamCode": "GG",
+      "lastName": "Ride",
+      "firstName": "Sally",
+      "fullName": "Ride, Sally",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "bronte|emily|7-8",
+      "teamCode": "GG",
+      "lastName": "Bronte",
+      "firstName": "Emily",
+      "fullName": "Bronte, Emily",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "sotomayor|sonia|7-8",
+      "teamCode": "GG",
+      "lastName": "Sotomayor",
+      "firstName": "Sonia",
+      "fullName": "Sotomayor, Sonia",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "holly|buddy|13-14",
+      "teamCode": "GG",
+      "lastName": "Holly",
+      "firstName": "Buddy",
+      "fullName": "Holly, Buddy",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "obama|barack|13-14",
+      "teamCode": "WW",
+      "lastName": "Obama",
+      "firstName": "Barack",
+      "fullName": "Obama, Barack",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "verne|jules|13-14",
+      "teamCode": "GG",
+      "lastName": "Verne",
+      "firstName": "Jules",
+      "fullName": "Verne, Jules",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "mozart|wolfgang|13-14",
+      "teamCode": "WW",
+      "lastName": "Mozart",
+      "firstName": "Wolfgang",
+      "fullName": "Mozart, Wolfgang",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "davis|miles|13-14",
+      "teamCode": "GG",
+      "lastName": "Davis",
+      "firstName": "Miles",
+      "fullName": "Davis, Miles",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "twain|mark|13-14",
+      "teamCode": "WW",
+      "lastName": "Twain",
+      "firstName": "Mark",
+      "fullName": "Twain, Mark",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "jobs|steve|13-14",
+      "teamCode": "GG",
+      "lastName": "Jobs",
+      "firstName": "Steve",
+      "fullName": "Jobs, Steve",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "wilde|oscar|13-14",
+      "teamCode": "GG",
+      "lastName": "Wilde",
+      "firstName": "Oscar",
+      "fullName": "Wilde, Oscar",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "dylan|bob|13-14",
+      "teamCode": "GG",
+      "lastName": "Dylan",
+      "firstName": "Bob",
+      "fullName": "Dylan, Bob",
+      "gender": "M",
+      "ageGroup": "13-14"
+    },
+    {
+      "id": "roberts|julia|15-18",
+      "teamCode": "GG",
+      "lastName": "Roberts",
+      "firstName": "Julia",
+      "fullName": "Roberts, Julia",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "swift|taylor|15-18",
+      "teamCode": "GG",
+      "lastName": "Swift",
+      "firstName": "Taylor",
+      "fullName": "Swift, Taylor",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "fenty|rihanna|15-18",
+      "teamCode": "GG",
+      "lastName": "Fenty",
+      "firstName": "Rihanna",
+      "fullName": "Fenty, Rihanna",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "carson|rachel|15-18",
+      "teamCode": "GG",
+      "lastName": "Carson",
+      "firstName": "Rachel",
+      "fullName": "Carson, Rachel",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "kidman|nicole|11-12",
+      "teamCode": "GG",
+      "lastName": "Kidman",
+      "firstName": "Nicole",
+      "fullName": "Kidman, Nicole",
+      "gender": "F",
+      "ageGroup": "11-12"
+    },
+    {
+      "id": "anthony|susan|15-18",
+      "teamCode": "GG",
+      "lastName": "Anthony",
+      "firstName": "Susan",
+      "fullName": "Anthony, Susan",
+      "gender": "F",
+      "ageGroup": "15-18"
+    },
+    {
+      "id": "blackwell|katherine|7-8",
+      "teamCode": "GG",
+      "lastName": "Blackwell",
+      "firstName": "Katherine",
+      "fullName": "Blackwell, Katherine",
+      "gender": "F",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "rachmaninoff|sergei|7-8",
+      "teamCode": "GG",
+      "lastName": "Rachmaninoff",
+      "firstName": "Sergei",
+      "fullName": "Rachmaninoff, Sergei",
+      "gender": "M",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "berry|chuck|7-8",
+      "teamCode": "GG",
+      "lastName": "Berry",
+      "firstName": "Chuck",
+      "fullName": "Berry, Chuck",
+      "gender": "M",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "sagan|carl|7-8",
+      "teamCode": "GG",
+      "lastName": "Sagan",
+      "firstName": "Carl",
+      "fullName": "Sagan, Carl",
+      "gender": "M",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "kafka|franz|7-8",
+      "teamCode": "GG",
+      "lastName": "Kafka",
+      "firstName": "Franz",
+      "fullName": "Kafka, Franz",
+      "gender": "M",
+      "ageGroup": "7-8"
+    },
+    {
+      "id": "marley|bob|7-8",
+      "teamCode": "GG",
+      "lastName": "Marley",
+      "firstName": "Bob",
+      "fullName": "Marley, Bob",
+      "gender": "M",
+      "ageGroup": "7-8"
+    }
+  ],
+  "events": [
+    {
+      "number": "7",
+      "type": "individual",
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Boys 15-18 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Einstein, Albert",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:10.96",
+            "seconds": 70.96
+          },
+          "finalTime": {
+            "text": "1:11.35",
+            "seconds": 71.35
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "einstein|albert|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Charles, Ray",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:13.70",
+            "seconds": 73.7
+          },
+          "finalTime": {
+            "text": "1:13.98",
+            "seconds": 73.98
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "charles|ray|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Asimov, Isaac",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:22.83",
+            "seconds": 82.83
+          },
+          "finalTime": {
+            "text": "1:22.91",
+            "seconds": 82.91
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "asimov|isaac|15-18"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Boys 15-18 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Einstein, Albert",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "28.15",
+            "seconds": 28.15
+          },
+          "finalTime": {
+            "text": "28.05",
+            "seconds": 28.05
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "einstein|albert|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Presley, Elvis",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "27.98",
+            "seconds": 27.98
+          },
+          "finalTime": {
+            "text": "28.20",
+            "seconds": 28.2
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "presley|elvis|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Asimov, Isaac",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "30.93",
+            "seconds": 30.93
+          },
+          "finalTime": {
+            "text": "31.23",
+            "seconds": 31.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "asimov|isaac|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Newton, Isaac",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "37.25",
+            "seconds": 37.25
+          },
+          "finalTime": {
+            "text": "38.36",
+            "seconds": 38.36
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "newton|isaac|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Owens, Jesse",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "37.05",
+            "seconds": 37.05
+          },
+          "finalTime": {
+            "text": "36.44",
+            "seconds": 36.44
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "owens|jesse|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sinatra, Frank",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "35.30",
+            "seconds": 35.3
+          },
+          "finalTime": {
+            "text": "35.86",
+            "seconds": 35.86
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "sinatra|frank|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Roosevelt, Franklin",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "34.64",
+            "seconds": 34.64
+          },
+          "finalTime": {
+            "text": "34.69",
+            "seconds": 34.69
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "roosevelt|franklin|15-18"
+        }
+      ]
+    },
+    {
+      "number": "29",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Boys 15-18 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Einstein, Albert",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.55",
+            "seconds": 35.55
+          },
+          "finalTime": {
+            "text": "36.97",
+            "seconds": 36.97
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "einstein|albert|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Presley, Elvis",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "37.85",
+            "seconds": 37.85
+          },
+          "finalTime": {
+            "text": "37.69",
+            "seconds": 37.69
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "presley|elvis|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Roosevelt, Franklin",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "40.99",
+            "seconds": 40.99
+          },
+          "finalTime": {
+            "text": "41.23",
+            "seconds": 41.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "roosevelt|franklin|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Newton, Isaac",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:02.51",
+            "seconds": 62.51
+          },
+          "finalTime": {
+            "text": "1:04.48",
+            "seconds": 64.48
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "newton|isaac|15-18"
+        }
+      ]
+    },
+    {
+      "number": "51",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Boys 15-18 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Presley, Elvis",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "30.06",
+            "seconds": 30.06
+          },
+          "finalTime": {
+            "text": "31.18",
+            "seconds": 31.18
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "presley|elvis|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Charles, Ray",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "32.34",
+            "seconds": 32.34
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "charles|ray|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Einstein, Albert",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "31.22",
+            "seconds": 31.22
+          },
+          "finalTime": {
+            "text": "32.91",
+            "seconds": 32.91
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "einstein|albert|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Newton, Isaac",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "55.27",
+            "seconds": 55.27
+          },
+          "finalTime": {
+            "text": "59.14",
+            "seconds": 59.14
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "1F",
+          "dqReason": "Arms: Underwater recovery",
+          "swimmerId": "newton|isaac|15-18"
+        }
+      ]
+    },
+    {
+      "number": "41",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Boys 15-18 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Charles, Ray",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "34.29",
+            "seconds": 34.29
+          },
+          "finalTime": {
+            "text": "33.97",
+            "seconds": 33.97
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "charles|ray|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Vinci, Leonardo",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.47",
+            "seconds": 35.47
+          },
+          "finalTime": {
+            "text": "37.35",
+            "seconds": 37.35
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "vinci|leonardo|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sinatra, Frank",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "48.68",
+            "seconds": 48.68
+          },
+          "finalTime": {
+            "text": "44.63",
+            "seconds": 44.63
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "sinatra|frank|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Newton, Isaac",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "53.38",
+            "seconds": 53.38
+          },
+          "finalTime": {
+            "text": "55.43",
+            "seconds": 55.43
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "newton|isaac|15-18"
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "type": "individual",
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "6 & Under",
+        "lower": 0,
+        "upper": 6
+      },
+      "description": "Boys 6 & Under 25m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Dickens, Charles",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "37.29",
+            "seconds": 37.29
+          },
+          "finalTime": {
+            "text": "35.45",
+            "seconds": 35.45
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "dickens|charles|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Federer, Roger",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "42.54",
+            "seconds": 42.54
+          },
+          "finalTime": {
+            "text": "39.23",
+            "seconds": 39.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "federer|roger|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hemingway, Ernest",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "53.65",
+            "seconds": 53.65
+          },
+          "finalTime": {
+            "text": "45.93",
+            "seconds": 45.93
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hemingway|ernest|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Darwin, Charles",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "45.67",
+            "seconds": 45.67
+          },
+          "finalTime": null,
+          "status": "scratch",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "darwin|charles|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Edison, Thomas",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:11.75",
+            "seconds": 71.75
+          },
+          "finalTime": {
+            "text": "1:04.53",
+            "seconds": 64.53
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "edison|thomas|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mercury, Freddie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:00.19",
+            "seconds": 60.19
+          },
+          "finalTime": {
+            "text": "56.94",
+            "seconds": 56.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "mercury|freddie|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dali, Salvador",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:09.94",
+            "seconds": 69.94
+          },
+          "finalTime": {
+            "text": "1:19.79",
+            "seconds": 79.79
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "dali|salvador|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Goethe, Johann",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "42.31",
+            "seconds": 42.31
+          },
+          "finalTime": {
+            "text": "46.75",
+            "seconds": 46.75
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "goethe|johann|6&u"
+        }
+      ]
+    },
+    {
+      "number": "31",
+      "type": "individual",
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "6 & Under",
+        "lower": 0,
+        "upper": 6
+      },
+      "description": "Boys 6 & Under 25m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Federer, Roger",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "46.80",
+            "seconds": 46.8
+          },
+          "finalTime": {
+            "text": "42.28",
+            "seconds": 42.28
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "federer|roger|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dickens, Charles",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.02",
+            "seconds": 39.02
+          },
+          "finalTime": {
+            "text": "44.90",
+            "seconds": 44.9
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "dickens|charles|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Darwin, Charles",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:06.29",
+            "seconds": 66.29
+          },
+          "finalTime": {
+            "text": "51.81",
+            "seconds": 51.81
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "darwin|charles|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hemingway, Ernest",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:17.40",
+            "seconds": 77.4
+          },
+          "finalTime": {
+            "text": "1:06.44",
+            "seconds": 66.44
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "hemingway|ernest|6&u"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "type": "individual",
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Girls 10 & Under 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Austen, Jane",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:34.27",
+            "seconds": 94.27
+          },
+          "finalTime": {
+            "text": "1:34.43",
+            "seconds": 94.43
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "austen|jane|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rowling, Joanne",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:55.11",
+            "seconds": 115.11
+          },
+          "finalTime": {
+            "text": "1:53.75",
+            "seconds": 113.75
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "rowling|joanne|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Alcott, Louisa",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:55.36",
+            "seconds": 115.36
+          },
+          "finalTime": {
+            "text": "1:57.61",
+            "seconds": 117.61
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "alcott|louisa|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Curie, Marie",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:54.74",
+            "seconds": 114.74
+          },
+          "finalTime": {
+            "text": "2:00.91",
+            "seconds": 120.91
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "curie|marie|9-10"
+        }
+      ]
+    },
+    {
+      "number": "38",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Degeneres, Ellen",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "45.84",
+            "seconds": 45.84
+          },
+          "finalTime": {
+            "text": "45.59",
+            "seconds": 45.59
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "degeneres|ellen|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Jolie, Angelina",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "52.34",
+            "seconds": 52.34
+          },
+          "finalTime": {
+            "text": "52.76",
+            "seconds": 52.76
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "jolie|angelina|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Keller, Helen",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:05.61",
+            "seconds": 65.61
+          },
+          "finalTime": {
+            "text": "1:01.72",
+            "seconds": 61.72
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "keller|helen|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Curie, Marie",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:01.24",
+            "seconds": 61.24
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "2H",
+          "dqReason": "Not on back off wall",
+          "swimmerId": "curie|marie|9-10"
+        }
+      ]
+    },
+    {
+      "number": "46",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Austen, Jane",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "43.96",
+            "seconds": 43.96
+          },
+          "finalTime": {
+            "text": "44.93",
+            "seconds": 44.93
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "austen|jane|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Parton, Dolly",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.21",
+            "seconds": 58.21
+          },
+          "finalTime": {
+            "text": "57.35",
+            "seconds": 57.35
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "parton|dolly|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Windsor, Victoria",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.23",
+            "seconds": 58.23
+          },
+          "finalTime": {
+            "text": "1:01.78",
+            "seconds": 61.78
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "windsor|victoria|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Curie, Marie",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "56.49",
+            "seconds": 56.49
+          },
+          "finalTime": {
+            "text": "1:05.51",
+            "seconds": 65.51
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "curie|marie|9-10"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "type": "individual",
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "6 & Under",
+        "lower": 0,
+        "upper": 6
+      },
+      "description": "Girls 6 & Under 25m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Beauvoir, Simone",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "25.38",
+            "seconds": 25.38
+          },
+          "finalTime": {
+            "text": "26.78",
+            "seconds": 26.78
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "beauvoir|simone|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Earhart, Amelia",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "37.13",
+            "seconds": 37.13
+          },
+          "finalTime": {
+            "text": "35.66",
+            "seconds": 35.66
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "earhart|amelia|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Johansson, Scarlett",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "34.88",
+            "seconds": 34.88
+          },
+          "finalTime": {
+            "text": "37.40",
+            "seconds": 37.4
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "johansson|scarlett|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Frank, Anne",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "46.46",
+            "seconds": 46.46
+          },
+          "finalTime": {
+            "text": "39.93",
+            "seconds": 39.93
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "frank|anne|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hepburn, Audrey",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:28.55",
+            "seconds": 88.55
+          },
+          "finalTime": {
+            "text": "2:07.32",
+            "seconds": 127.32
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "hepburn|audrey|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lamarr, Hedy",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "51.31",
+            "seconds": 51.31
+          },
+          "finalTime": {
+            "text": "53.94",
+            "seconds": 53.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "lamarr|hedy|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bronte, Charlotte",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:56.12",
+            "seconds": 116.12
+          },
+          "finalTime": {
+            "text": "2:09.53",
+            "seconds": 129.53
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "bronte|charlotte|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "OConnor, Sandra",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "56.64",
+            "seconds": 56.64
+          },
+          "finalTime": {
+            "text": "59.89",
+            "seconds": 59.89
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "oconnor|sandra|6&u"
+        }
+      ]
+    },
+    {
+      "number": "22",
+      "type": "individual",
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 25m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Fitzgerald, Ella",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "28.65",
+            "seconds": 28.65
+          },
+          "finalTime": {
+            "text": "29.96",
+            "seconds": 29.96
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "fitzgerald|ella|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Romanov, Catherine",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "30.05",
+            "seconds": 30.05
+          },
+          "finalTime": {
+            "text": "30.13",
+            "seconds": 30.13
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "romanov|catherine|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Biles, Simone",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.97",
+            "seconds": 35.97
+          },
+          "finalTime": {
+            "text": "40.10",
+            "seconds": 40.1
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "biles|simone|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Earhart, Amelia",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "46.16",
+            "seconds": 46.16
+          },
+          "finalTime": {
+            "text": "42.68",
+            "seconds": 42.68
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "earhart|amelia|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hamm, Mia",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "48.12",
+            "seconds": 48.12
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3S",
+          "dqReason": "Cycle: Double pulls/kicks",
+          "swimmerId": "hamm|mia|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ledecky, Katie",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "37.22",
+            "seconds": 37.22
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "ledecky|katie|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Winfrey, Oprah",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "34.03",
+            "seconds": 34.03
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "winfrey|oprah|7-8"
+        }
+      ]
+    },
+    {
+      "number": "32",
+      "type": "individual",
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "6 & Under",
+        "lower": 0,
+        "upper": 6
+      },
+      "description": "Girls 6 & Under 25m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Keaton, Diane",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "42.54",
+            "seconds": 42.54
+          },
+          "finalTime": {
+            "text": "39.61",
+            "seconds": 39.61
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "keaton|diane|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Earhart, Amelia",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "38.39",
+            "seconds": 38.39
+          },
+          "finalTime": {
+            "text": "42.72",
+            "seconds": 42.72
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "earhart|amelia|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Frank, Anne",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "56.20",
+            "seconds": 56.2
+          },
+          "finalTime": {
+            "text": "44.44",
+            "seconds": 44.44
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "frank|anne|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Johansson, Scarlett",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "53.87",
+            "seconds": 53.87
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "johansson|scarlett|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dion, Celine",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "53.24",
+            "seconds": 53.24
+          },
+          "finalTime": {
+            "text": "49.05",
+            "seconds": 49.05
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "dion|celine|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lamarr, Hedy",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "48.06",
+            "seconds": 48.06
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "lamarr|hedy|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Beauvoir, Simone",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "34.37",
+            "seconds": 34.37
+          },
+          "finalTime": {
+            "text": "34.35",
+            "seconds": 34.35
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "2T",
+          "dqReason": "Other - Backstroke",
+          "swimmerId": "beauvoir|simone|6&u"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bardot, Brigitte",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "44.19",
+            "seconds": 44.19
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "bardot|brigitte|6&u"
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Robinson, Jackie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "47.30",
+            "seconds": 47.3
+          },
+          "finalTime": {
+            "text": "43.60",
+            "seconds": 43.6
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "robinson|jackie|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lincoln, Abraham",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "49.48",
+            "seconds": 49.48
+          },
+          "finalTime": {
+            "text": "49.60",
+            "seconds": 49.6
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "lincoln|abraham|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Gogh, Vincent",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "58.75",
+            "seconds": 58.75
+          },
+          "finalTime": {
+            "text": "58.07",
+            "seconds": 58.07
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "gogh|vincent|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Armstrong, Neil",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:19.57",
+            "seconds": 79.57
+          },
+          "finalTime": {
+            "text": "1:04.87",
+            "seconds": 64.87
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "armstrong|neil|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Picasso, Pablo",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:13.62",
+            "seconds": 73.62
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "picasso|pablo|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Disney, Walt",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:04.94",
+            "seconds": 64.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "disney|walt|9-10"
+        }
+      ]
+    },
+    {
+      "number": "23",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Lincoln, Abraham",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:07.64",
+            "seconds": 67.64
+          },
+          "finalTime": {
+            "text": "1:09.16",
+            "seconds": 69.16
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "lincoln|abraham|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Disney, Walt",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:28.00",
+            "seconds": 88
+          },
+          "finalTime": {
+            "text": "1:21.15",
+            "seconds": 81.15
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "disney|walt|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Gogh, Vincent",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:27.05",
+            "seconds": 87.05
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3D",
+          "dqReason": "Arms: Past hipline",
+          "swimmerId": "gogh|vincent|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Phelps, Michael",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "50.58",
+            "seconds": 50.58
+          },
+          "finalTime": {
+            "text": "51.80",
+            "seconds": 51.8
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3T",
+          "dqReason": "Other - Breaststroke",
+          "swimmerId": "phelps|michael|9-10"
+        }
+      ]
+    },
+    {
+      "number": "35",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Phelps, Michael",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "47.48",
+            "seconds": 47.48
+          },
+          "finalTime": {
+            "text": "44.66",
+            "seconds": 44.66
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "phelps|michael|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Gogh, Vincent",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:03.58",
+            "seconds": 63.58
+          },
+          "finalTime": {
+            "text": "1:02.33",
+            "seconds": 62.33
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "gogh|vincent|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lincoln, Abraham",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "54.62",
+            "seconds": 54.62
+          },
+          "finalTime": {
+            "text": "52.72",
+            "seconds": 52.72
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "2L",
+          "dqReason": "Shoulders past vertical towards the breast",
+          "swimmerId": "lincoln|abraham|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dostoevsky, Fyodor",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:55.53",
+            "seconds": 115.53
+          },
+          "finalTime": {
+            "text": "1:51.00",
+            "seconds": 111
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "2L",
+          "dqReason": "Shoulders past vertical towards the breast",
+          "swimmerId": "dostoevsky|fyodor|9-10"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "type": "individual",
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Armstrong, Louis",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:16.06",
+            "seconds": 76.06
+          },
+          "finalTime": {
+            "text": "1:17.98",
+            "seconds": 77.98
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "armstrong|louis|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Washington, George",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:19.95",
+            "seconds": 79.95
+          },
+          "finalTime": {
+            "text": "1:24.10",
+            "seconds": 84.1
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "washington|george|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Douglass, Frederick",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:27.66",
+            "seconds": 87.66
+          },
+          "finalTime": {
+            "text": "1:43.36",
+            "seconds": 103.36
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "douglass|frederick|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Galilei, Galileo",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:55.51",
+            "seconds": 115.51
+          },
+          "finalTime": {
+            "text": "1:54.45",
+            "seconds": 114.45
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "galilei|galileo|11-12"
+        }
+      ]
+    },
+    {
+      "number": "25",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Armstrong, Louis",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.09",
+            "seconds": 39.09
+          },
+          "finalTime": {
+            "text": "41.48",
+            "seconds": 41.48
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "armstrong|louis|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Washington, George",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "41.94",
+            "seconds": 41.94
+          },
+          "finalTime": {
+            "text": "43.94",
+            "seconds": 43.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "washington|george|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Shakespeare, William",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "48.85",
+            "seconds": 48.85
+          },
+          "finalTime": {
+            "text": "52.86",
+            "seconds": 52.86
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "shakespeare|william|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bolt, Usain",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:02.99",
+            "seconds": 62.99
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "bolt|usain|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lee, Bruce",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:09.73",
+            "seconds": 69.73
+          },
+          "finalTime": {
+            "text": "1:09.99",
+            "seconds": 69.99
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3B",
+          "dqReason": "Kick: Butterfly",
+          "swimmerId": "lee|bruce|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hugo, Victor",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:34.23",
+            "seconds": 94.23
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3B",
+          "dqReason": "Kick: Butterfly",
+          "swimmerId": "hugo|victor|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Adams, Ansel",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:22.46",
+            "seconds": 82.46
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "adams|ansel|11-12"
+        }
+      ]
+    },
+    {
+      "number": "47",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Douglass, Frederick",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "36.28",
+            "seconds": 36.28
+          },
+          "finalTime": {
+            "text": "36.21",
+            "seconds": 36.21
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "douglass|frederick|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Washington, George",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.86",
+            "seconds": 35.86
+          },
+          "finalTime": {
+            "text": "38.38",
+            "seconds": 38.38
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "washington|george|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Galilei, Galileo",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "51.39",
+            "seconds": 51.39
+          },
+          "finalTime": {
+            "text": "51.43",
+            "seconds": 51.43
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "galilei|galileo|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Adams, Ansel",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:22.66",
+            "seconds": 82.66
+          },
+          "finalTime": {
+            "text": "1:21.53",
+            "seconds": 81.53
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "1F",
+          "dqReason": "Arms: Underwater recovery",
+          "swimmerId": "adams|ansel|11-12"
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "type": "individual",
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Lovelace, Ada",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:17.11",
+            "seconds": 77.11
+          },
+          "finalTime": {
+            "text": "1:15.58",
+            "seconds": 75.58
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "lovelace|ada|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Morrison, Toni",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:39.69",
+            "seconds": 99.69
+          },
+          "finalTime": {
+            "text": "1:38.14",
+            "seconds": 98.14
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "morrison|toni|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hayworth, Rita",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:49.37",
+            "seconds": 109.37
+          },
+          "finalTime": {
+            "text": "1:48.84",
+            "seconds": 108.84
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hayworth|rita|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rudolph, Wilma",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:46.63",
+            "seconds": 106.63
+          },
+          "finalTime": {
+            "text": "1:49.73",
+            "seconds": 109.73
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "rudolph|wilma|13-14"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Lovelace, Ada",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "30.98",
+            "seconds": 30.98
+          },
+          "finalTime": {
+            "text": "31.39",
+            "seconds": 31.39
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "lovelace|ada|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Carey, Mariah",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "33.59",
+            "seconds": 33.59
+          },
+          "finalTime": {
+            "text": "34.05",
+            "seconds": 34.05
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "carey|mariah|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rudolph, Wilma",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "38.77",
+            "seconds": 38.77
+          },
+          "finalTime": {
+            "text": "40.26",
+            "seconds": 40.26
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "rudolph|wilma|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Piaf, Edith",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "43.95",
+            "seconds": 43.95
+          },
+          "finalTime": {
+            "text": "43.18",
+            "seconds": 43.18
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "piaf|edith|13-14"
+        }
+      ]
+    },
+    {
+      "number": "50",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Lovelace, Ada",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "33.86",
+            "seconds": 33.86
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "lovelace|ada|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Carey, Mariah",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "38.84",
+            "seconds": 38.84
+          },
+          "finalTime": {
+            "text": "39.78",
+            "seconds": 39.78
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "carey|mariah|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hayworth, Rita",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "44.37",
+            "seconds": 44.37
+          },
+          "finalTime": {
+            "text": "50.23",
+            "seconds": 50.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hayworth|rita|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rudolph, Wilma",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "47.73",
+            "seconds": 47.73
+          },
+          "finalTime": {
+            "text": "51.49",
+            "seconds": 51.49
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "rudolph|wilma|13-14"
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Austen, Jane",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "37.98",
+            "seconds": 37.98
+          },
+          "finalTime": {
+            "text": "38.95",
+            "seconds": 38.95
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "austen|jane|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dickinson, Emily",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "42.52",
+            "seconds": 42.52
+          },
+          "finalTime": {
+            "text": "46.37",
+            "seconds": 46.37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "dickinson|emily|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Thatcher, Margaret",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "45.75",
+            "seconds": 45.75
+          },
+          "finalTime": {
+            "text": "47.37",
+            "seconds": 47.37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "thatcher|margaret|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Franklin, Aretha",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "47.70",
+            "seconds": 47.7
+          },
+          "finalTime": {
+            "text": "50.41",
+            "seconds": 50.41
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "franklin|aretha|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Keller, Helen",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "48.86",
+            "seconds": 48.86
+          },
+          "finalTime": {
+            "text": "49.52",
+            "seconds": 49.52
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "keller|helen|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Watson, Emma",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:09.31",
+            "seconds": 69.31
+          },
+          "finalTime": {
+            "text": "1:05.76",
+            "seconds": 65.76
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "watson|emma|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Holiday, Billie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "59.95",
+            "seconds": 59.95
+          },
+          "finalTime": {
+            "text": "58.57",
+            "seconds": 58.57
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "holiday|billie|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lee, Harper",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:15.74",
+            "seconds": 75.74
+          },
+          "finalTime": {
+            "text": "1:16.31",
+            "seconds": 76.31
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "lee|harper|9-10"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Girls 15-18 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Weaver, Sigourney",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.12",
+            "seconds": 39.12
+          },
+          "finalTime": {
+            "text": "36.26",
+            "seconds": 36.26
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "weaver|sigourney|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kahlo, Frida",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "42.49",
+            "seconds": 42.49
+          },
+          "finalTime": {
+            "text": "44.05",
+            "seconds": 44.05
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "kahlo|frida|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hopper, Grace",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "44.78",
+            "seconds": 44.78
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hopper|grace|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Knowles, Beyonce",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.75",
+            "seconds": 58.75
+          },
+          "finalTime": {
+            "text": "51.40",
+            "seconds": 51.4
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "knowles|beyonce|15-18"
+        }
+      ]
+    },
+    {
+      "number": "28",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Morrison, Toni",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "50.00",
+            "seconds": 50
+          },
+          "finalTime": {
+            "text": "49.54",
+            "seconds": 49.54
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "morrison|toni|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bello, Michelle",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "54.68",
+            "seconds": 54.68
+          },
+          "finalTime": {
+            "text": "51.37",
+            "seconds": 51.37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "bello|michelle|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kahlo, Frida",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "53.58",
+            "seconds": 53.58
+          },
+          "finalTime": {
+            "text": "53.56",
+            "seconds": 53.56
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "kahlo|frida|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Williams, Serena",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "56.35",
+            "seconds": 56.35
+          },
+          "finalTime": {
+            "text": "58.75",
+            "seconds": 58.75
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "williams|serena|13-14"
+        }
+      ]
+    },
+    {
+      "number": "40",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Bello, Michelle",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "42.08",
+            "seconds": 42.08
+          },
+          "finalTime": {
+            "text": "41.77",
+            "seconds": 41.77
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "bello|michelle|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Williams, Serena",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "47.21",
+            "seconds": 47.21
+          },
+          "finalTime": {
+            "text": "46.75",
+            "seconds": 46.75
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "williams|serena|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hayworth, Rita",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "49.25",
+            "seconds": 49.25
+          },
+          "finalTime": {
+            "text": "50.15",
+            "seconds": 50.15
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hayworth|rita|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kahlo, Frida",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "52.10",
+            "seconds": 52.1
+          },
+          "finalTime": {
+            "text": "51.76",
+            "seconds": 51.76
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "kahlo|frida|13-14"
+        }
+      ]
+    },
+    {
+      "number": "24",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "King, Billie",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "54.66",
+            "seconds": 54.66
+          },
+          "finalTime": {
+            "text": "56.54",
+            "seconds": 56.54
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "king|billie|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Windsor, Victoria",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.90",
+            "seconds": 58.9
+          },
+          "finalTime": {
+            "text": "57.94",
+            "seconds": 57.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "windsor|victoria|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Parton, Dolly",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.94",
+            "seconds": 58.94
+          },
+          "finalTime": {
+            "text": "58.54",
+            "seconds": 58.54
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "parton|dolly|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dickinson, Emily",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:03.82",
+            "seconds": 63.82
+          },
+          "finalTime": {
+            "text": "1:03.39",
+            "seconds": 63.39
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "dickinson|emily|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Franklin, Aretha",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:06.37",
+            "seconds": 66.37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "franklin|aretha|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Steinem, Gloria",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:26.51",
+            "seconds": 86.51
+          },
+          "finalTime": {
+            "text": "1:24.07",
+            "seconds": 84.07
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3E",
+          "dqReason": "Arms: Non-simultaneous",
+          "swimmerId": "steinem|gloria|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Merkel, Angela",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:21.58",
+            "seconds": 81.58
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "merkel|angela|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sarandon, Susan",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:12.50",
+            "seconds": 72.5
+          },
+          "finalTime": {
+            "text": "1:11.58",
+            "seconds": 71.58
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "sarandon|susan|9-10"
+        }
+      ]
+    },
+    {
+      "number": "36",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Rowling, Joanne",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "49.83",
+            "seconds": 49.83
+          },
+          "finalTime": {
+            "text": "49.98",
+            "seconds": 49.98
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "rowling|joanne|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Alcott, Louisa",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "53.69",
+            "seconds": 53.69
+          },
+          "finalTime": {
+            "text": "55.89",
+            "seconds": 55.89
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "alcott|louisa|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Angelou, Maya",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "55.21",
+            "seconds": 55.21
+          },
+          "finalTime": {
+            "text": "57.57",
+            "seconds": 57.57
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "angelou|maya|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dickinson, Emily",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "50.30",
+            "seconds": 50.3
+          },
+          "finalTime": {
+            "text": "52.54",
+            "seconds": 52.54
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "2L",
+          "dqReason": "Shoulders past vertical towards the breast",
+          "swimmerId": "dickinson|emily|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Clinton, Hillary",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:01.87",
+            "seconds": 61.87
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "clinton|hillary|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Merkel, Angela",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:01.42",
+            "seconds": 61.42
+          },
+          "finalTime": {
+            "text": "55.88",
+            "seconds": 55.88
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "merkel|angela|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Tereshkova, Valentina",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "59.27",
+            "seconds": 59.27
+          },
+          "finalTime": {
+            "text": "1:01.44",
+            "seconds": 61.44
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "tereshkova|valentina|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Garland, Judy",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:17.68",
+            "seconds": 77.68
+          },
+          "finalTime": {
+            "text": "1:24.11",
+            "seconds": 84.11
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "garland|judy|9-10"
+        }
+      ]
+    },
+    {
+      "number": "37",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Vinci, Leonardo",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.47",
+            "seconds": 35.47
+          },
+          "finalTime": {
+            "text": "37.61",
+            "seconds": 37.61
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "vinci|leonardo|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Douglass, Frederick",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "38.77",
+            "seconds": 38.77
+          },
+          "finalTime": {
+            "text": "40.76",
+            "seconds": 40.76
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "douglass|frederick|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bolt, Usain",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:00.90",
+            "seconds": 60.9
+          },
+          "finalTime": {
+            "text": "58.25",
+            "seconds": 58.25
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "bolt|usain|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Wonder, Stevie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:02.59",
+            "seconds": 62.59
+          },
+          "finalTime": {
+            "text": "1:02.08",
+            "seconds": 62.08
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "wonder|stevie|11-12"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "type": "individual",
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Degeneres, Ellen",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:39.48",
+            "seconds": 99.48
+          },
+          "finalTime": {
+            "text": "1:37.65",
+            "seconds": 97.65
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "degeneres|ellen|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Davis, Bette",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:39.75",
+            "seconds": 99.75
+          },
+          "finalTime": {
+            "text": "1:39.97",
+            "seconds": 99.97
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "davis|bette|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Angelou, Maya",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "2:05.79",
+            "seconds": 125.79
+          },
+          "finalTime": {
+            "text": "2:07.00",
+            "seconds": 127
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "angelou|maya|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Franklin, Rosalind",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:52.80",
+            "seconds": 112.8
+          },
+          "finalTime": {
+            "text": "1:56.03",
+            "seconds": 116.03
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "franklin|rosalind|11-12"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Potter, Beatrix",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.11",
+            "seconds": 39.11
+          },
+          "finalTime": {
+            "text": "37.72",
+            "seconds": 37.72
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "potter|beatrix|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Jolie, Angelina",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.76",
+            "seconds": 39.76
+          },
+          "finalTime": {
+            "text": "38.55",
+            "seconds": 38.55
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "jolie|angelina|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "King, Billie",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "45.83",
+            "seconds": 45.83
+          },
+          "finalTime": {
+            "text": "45.42",
+            "seconds": 45.42
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "king|billie|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Angelou, Maya",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "46.19",
+            "seconds": 46.19
+          },
+          "finalTime": {
+            "text": "48.10",
+            "seconds": 48.1
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "angelou|maya|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ciccone, Madonna",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "44.08",
+            "seconds": 44.08
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "ciccone|madonna|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Yousafzai, Malala",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "46.55",
+            "seconds": 46.55
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "yousafzai|malala|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Pavlova, Anna",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "46.66",
+            "seconds": 46.66
+          },
+          "finalTime": {
+            "text": "49.17",
+            "seconds": 49.17
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "pavlova|anna|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kelly, Grace",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:13.91",
+            "seconds": 73.91
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "kelly|grace|11-12"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "type": "individual",
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "7-8",
+        "lower": 7,
+        "upper": 8
+      },
+      "description": "Girls 7-8 25m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Gandhi, Indira",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "20.95",
+            "seconds": 20.95
+          },
+          "finalTime": {
+            "text": "21.99",
+            "seconds": 21.99
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "gandhi|indira|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Jemison, Mae",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "24.27",
+            "seconds": 24.27
+          },
+          "finalTime": {
+            "text": "24.37",
+            "seconds": 24.37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "jemison|mae|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Monroe, Marilyn",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "38.14",
+            "seconds": 38.14
+          },
+          "finalTime": {
+            "text": "38.00",
+            "seconds": 38
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "monroe|marilyn|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hepburn, Katharine",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "53.21",
+            "seconds": 53.21
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "hepburn|katharine|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Biles, Simone",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "28.81",
+            "seconds": 28.81
+          },
+          "finalTime": {
+            "text": "33.03",
+            "seconds": 33.03
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "biles|simone|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hamm, Mia",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "43.67",
+            "seconds": 43.67
+          },
+          "finalTime": {
+            "text": "44.27",
+            "seconds": 44.27
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "4C",
+          "dqReason": "Re-submerged",
+          "swimmerId": "hamm|mia|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Comaneci, Nadia",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.56",
+            "seconds": 39.56
+          },
+          "finalTime": {
+            "text": "43.15",
+            "seconds": 43.15
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "comaneci|nadia|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ledecky, Katie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "27.92",
+            "seconds": 27.92
+          },
+          "finalTime": {
+            "text": "25.81",
+            "seconds": 25.81
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "ledecky|katie|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Stone, Emma",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "36.13",
+            "seconds": 36.13
+          },
+          "finalTime": {
+            "text": "36.81",
+            "seconds": 36.81
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "stone|emma|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Houston, Whitney",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "38.09",
+            "seconds": 38.09
+          },
+          "finalTime": {
+            "text": "38.32",
+            "seconds": 38.32
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "houston|whitney|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Taylor, Elizabeth",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "43.75",
+            "seconds": 43.75
+          },
+          "finalTime": {
+            "text": "42.15",
+            "seconds": 42.15
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "taylor|elizabeth|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Foster, Jodie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "41.00",
+            "seconds": 41
+          },
+          "finalTime": {
+            "text": "41.77",
+            "seconds": 41.77
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "foster|jodie|7-8"
+        }
+      ]
+    },
+    {
+      "number": "34",
+      "type": "individual",
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "7-8",
+        "lower": 7,
+        "upper": 8
+      },
+      "description": "Girls 7-8 25m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Jemison, Mae",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "29.18",
+            "seconds": 29.18
+          },
+          "finalTime": {
+            "text": "28.89",
+            "seconds": 28.89
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "jemison|mae|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Romanov, Catherine",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "26.09",
+            "seconds": 26.09
+          },
+          "finalTime": {
+            "text": "30.99",
+            "seconds": 30.99
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "romanov|catherine|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Biles, Simone",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "30.89",
+            "seconds": 30.89
+          },
+          "finalTime": {
+            "text": "32.89",
+            "seconds": 32.89
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "biles|simone|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Monroe, Marilyn",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "37.86",
+            "seconds": 37.86
+          },
+          "finalTime": {
+            "text": "33.34",
+            "seconds": 33.34
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "monroe|marilyn|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hamm, Mia",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "54.45",
+            "seconds": 54.45
+          },
+          "finalTime": {
+            "text": "50.94",
+            "seconds": 50.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "hamm|mia|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Winfrey, Oprah",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "34.94",
+            "seconds": 34.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "winfrey|oprah|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Lawrence, Jennifer",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "41.32",
+            "seconds": 41.32
+          },
+          "finalTime": {
+            "text": "37.80",
+            "seconds": 37.8
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "lawrence|jennifer|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Stone, Emma",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "43.68",
+            "seconds": 43.68
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "stone|emma|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Tubman, Harriet",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "39.56",
+            "seconds": 39.56
+          },
+          "finalTime": {
+            "text": "41.75",
+            "seconds": 41.75
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "tubman|harriet|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ride, Sally",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "35.00",
+            "seconds": 35
+          },
+          "finalTime": {
+            "text": "35.72",
+            "seconds": 35.72
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "ride|sally|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bronte, Emily",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "50.19",
+            "seconds": 50.19
+          },
+          "finalTime": {
+            "text": "42.35",
+            "seconds": 42.35
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "bronte|emily|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sotomayor, Sonia",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "32.46",
+            "seconds": 32.46
+          },
+          "finalTime": {
+            "text": "32.38",
+            "seconds": 32.38
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "sotomayor|sonia|7-8"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "type": "individual",
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Holly, Buddy",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:13.49",
+            "seconds": 73.49
+          },
+          "finalTime": {
+            "text": "1:17.30",
+            "seconds": 77.3
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "holly|buddy|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Obama, Barack",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:17.85",
+            "seconds": 77.85
+          },
+          "finalTime": {
+            "text": "1:18.86",
+            "seconds": 78.86
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "obama|barack|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Verne, Jules",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:20.47",
+            "seconds": 80.47
+          },
+          "finalTime": {
+            "text": "1:19.28",
+            "seconds": 79.28
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "verne|jules|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mozart, Wolfgang",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:20.03",
+            "seconds": 80.03
+          },
+          "finalTime": {
+            "text": "1:20.25",
+            "seconds": 80.25
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "mozart|wolfgang|13-14"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Verne, Jules",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "29.23",
+            "seconds": 29.23
+          },
+          "finalTime": {
+            "text": "29.89",
+            "seconds": 29.89
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "verne|jules|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Obama, Barack",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "30.42",
+            "seconds": 30.42
+          },
+          "finalTime": {
+            "text": "31.92",
+            "seconds": 31.92
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "obama|barack|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mozart, Wolfgang",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "31.57",
+            "seconds": 31.57
+          },
+          "finalTime": {
+            "text": "32.55",
+            "seconds": 32.55
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "mozart|wolfgang|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Davis, Miles",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "35.15",
+            "seconds": 35.15
+          },
+          "finalTime": {
+            "text": "35.55",
+            "seconds": 35.55
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "davis|miles|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Twain, Mark",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "55.39",
+            "seconds": 55.39
+          },
+          "finalTime": null,
+          "status": "scratch",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "twain|mark|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Jobs, Steve",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "36.64",
+            "seconds": 36.64
+          },
+          "finalTime": {
+            "text": "38.68",
+            "seconds": 38.68
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "jobs|steve|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Wilde, Oscar",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "43.44",
+            "seconds": 43.44
+          },
+          "finalTime": {
+            "text": "41.97",
+            "seconds": 41.97
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "wilde|oscar|13-14"
+        }
+      ]
+    },
+    {
+      "number": "39",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Holly, Buddy",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "37.53",
+            "seconds": 37.53
+          },
+          "finalTime": {
+            "text": "37.00",
+            "seconds": 37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "holly|buddy|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Obama, Barack",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.38",
+            "seconds": 35.38
+          },
+          "finalTime": {
+            "text": "37.39",
+            "seconds": 37.39
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "obama|barack|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Jobs, Steve",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "54.54",
+            "seconds": 54.54
+          },
+          "finalTime": {
+            "text": "55.46",
+            "seconds": 55.46
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "jobs|steve|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Twain, Mark",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": null,
+          "status": "scratch",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "twain|mark|13-14"
+        }
+      ]
+    },
+    {
+      "number": "49",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Obama, Barack",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "33.16",
+            "seconds": 33.16
+          },
+          "finalTime": {
+            "text": "32.86",
+            "seconds": 32.86
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "obama|barack|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Holly, Buddy",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "33.15",
+            "seconds": 33.15
+          },
+          "finalTime": {
+            "text": "33.21",
+            "seconds": 33.21
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "holly|buddy|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mozart, Wolfgang",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "37.54",
+            "seconds": 37.54
+          },
+          "finalTime": {
+            "text": "38.12",
+            "seconds": 38.12
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "mozart|wolfgang|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Davis, Miles",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "48.78",
+            "seconds": 48.78
+          },
+          "finalTime": {
+            "text": "48.68",
+            "seconds": 48.68
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "davis|miles|13-14"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Armstrong, Louis",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "29.82",
+            "seconds": 29.82
+          },
+          "finalTime": {
+            "text": "30.68",
+            "seconds": 30.68
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "armstrong|louis|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Vinci, Leonardo",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "32.27",
+            "seconds": 32.27
+          },
+          "finalTime": {
+            "text": "33.00",
+            "seconds": 33
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "vinci|leonardo|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Shakespeare, William",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "35.86",
+            "seconds": 35.86
+          },
+          "finalTime": {
+            "text": "37.10",
+            "seconds": 37.1
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "shakespeare|william|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Wonder, Stevie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "47.57",
+            "seconds": 47.57
+          },
+          "finalTime": {
+            "text": "51.15",
+            "seconds": 51.15
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "wonder|stevie|11-12"
+        }
+      ]
+    },
+    {
+      "number": "27",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Verne, Jules",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "37.15",
+            "seconds": 37.15
+          },
+          "finalTime": {
+            "text": "38.32",
+            "seconds": 38.32
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "verne|jules|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mozart, Wolfgang",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "43.29",
+            "seconds": 43.29
+          },
+          "finalTime": {
+            "text": "44.90",
+            "seconds": 44.9
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "mozart|wolfgang|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Shakespeare, William",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "48.85",
+            "seconds": 48.85
+          },
+          "finalTime": {
+            "text": "51.90",
+            "seconds": 51.9
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "shakespeare|william|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dylan, Bob",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "52.65",
+            "seconds": 52.65
+          },
+          "finalTime": {
+            "text": "51.73",
+            "seconds": 51.73
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "swimmerId": "dylan|bob|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Twain, Mark",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": null,
+          "status": "scratch",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "twain|mark|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Jobs, Steve",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "52.23",
+            "seconds": 52.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "jobs|steve|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Davis, Miles",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "50.65",
+            "seconds": 50.65
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "davis|miles|13-14"
+        }
+      ]
+    },
+    {
+      "number": "30",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Girls 15-18 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Roberts, Julia",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "47.71",
+            "seconds": 47.71
+          },
+          "finalTime": {
+            "text": "49.42",
+            "seconds": 49.42
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "roberts|julia|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Swift, Taylor",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:04.15",
+            "seconds": 64.15
+          },
+          "finalTime": {
+            "text": "58.80",
+            "seconds": 58.8
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "swift|taylor|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hopper, Grace",
+          "teamCode": "WW",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:01.37",
+            "seconds": 61.37
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hopper|grace|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Fenty, Rihanna",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:19.03",
+            "seconds": 79.03
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "fenty|rihanna|15-18"
+        }
+      ]
+    },
+    {
+      "number": "42",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Girls 15-18 50m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Weaver, Sigourney",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "42.76",
+            "seconds": 42.76
+          },
+          "finalTime": {
+            "text": "42.75",
+            "seconds": 42.75
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "weaver|sigourney|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Carson, Rachel",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "46.06",
+            "seconds": 46.06
+          },
+          "finalTime": {
+            "text": "44.97",
+            "seconds": 44.97
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "carson|rachel|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hopper, Grace",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "55.33",
+            "seconds": 55.33
+          },
+          "finalTime": {
+            "text": "55.99",
+            "seconds": 55.99
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "hopper|grace|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Knowles, Beyonce",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:07.30",
+            "seconds": 67.3
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "knowles|beyonce|15-18"
+        }
+      ]
+    },
+    {
+      "number": "26",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Potter, Beatrix",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "50.50",
+            "seconds": 50.5
+          },
+          "finalTime": {
+            "text": "50.91",
+            "seconds": 50.91
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "potter|beatrix|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ciccone, Madonna",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "55.07",
+            "seconds": 55.07
+          },
+          "finalTime": {
+            "text": "55.10",
+            "seconds": 55.1
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "ciccone|madonna|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Keller, Helen",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:03.85",
+            "seconds": 63.85
+          },
+          "finalTime": {
+            "text": "1:01.94",
+            "seconds": 61.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "keller|helen|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kidman, Nicole",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "52.68",
+            "seconds": 52.68
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "kidman|nicole|11-12"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "type": "individual",
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Girls 15-18 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Roberts, Julia",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:35.66",
+            "seconds": 95.66
+          },
+          "finalTime": {
+            "text": "1:37.52",
+            "seconds": 97.52
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "roberts|julia|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Anthony, Susan",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:48.09",
+            "seconds": 108.09
+          },
+          "finalTime": {
+            "text": "1:46.44",
+            "seconds": 106.44
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "anthony|susan|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Williams, Serena",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:48.60",
+            "seconds": 108.6
+          },
+          "finalTime": {
+            "text": "1:50.30",
+            "seconds": 110.3
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "7T",
+          "dqReason": "Other - Misc",
+          "swimmerId": "williams|serena|13-14"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Swift, Taylor",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "1:49.01",
+            "seconds": 109.01
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "swift|taylor|15-18"
+        }
+      ]
+    },
+    {
+      "number": "48",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Davis, Bette",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "47.91",
+            "seconds": 47.91
+          },
+          "finalTime": {
+            "text": "45.70",
+            "seconds": 45.7
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "davis|bette|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Yousafzai, Malala",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "55.57",
+            "seconds": 55.57
+          },
+          "finalTime": {
+            "text": "56.19",
+            "seconds": 56.19
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "yousafzai|malala|11-12"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "King, Billie",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "1:40.15",
+            "seconds": 100.15
+          },
+          "finalTime": {
+            "text": "1:03.23",
+            "seconds": 63.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "swimmerId": "king|billie|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kidman, Nicole",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "45.66",
+            "seconds": 45.66
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "kidman|nicole|11-12"
+        }
+      ]
+    },
+    {
+      "number": "44",
+      "type": "individual",
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 25m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Gandhi, Indira",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "25.98",
+            "seconds": 25.98
+          },
+          "finalTime": {
+            "text": "24.88",
+            "seconds": 24.88
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "gandhi|indira|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Biles, Simone",
+          "teamCode": "WW",
+          "seedTime": {
+            "text": "38.20",
+            "seconds": 38.2
+          },
+          "finalTime": {
+            "text": "45.46",
+            "seconds": 45.46
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "1A",
+          "dqReason": "Kick: Alternating",
+          "swimmerId": "biles|simone|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Fitzgerald, Ella",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "30.27",
+            "seconds": 30.27
+          },
+          "finalTime": {
+            "text": "31.01",
+            "seconds": 31.01
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "1F",
+          "dqReason": "Arms: Underwater recovery",
+          "swimmerId": "fitzgerald|ella|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Blackwell, Katherine",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "49.10",
+            "seconds": 49.1
+          },
+          "finalTime": {
+            "text": "38.33",
+            "seconds": 38.33
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "blackwell|katherine|7-8"
+        }
+      ]
+    },
+    {
+      "number": "",
+      "type": "relay",
+      "gender": "X",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Mixed 8 & Under 100m Freestyle Relay",
+      "results": [
+        {
+          "kind": "relay",
+          "teamCode": "WW",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:27.75",
+            "seconds": 147.75
+          },
+          "finalTime": {
+            "text": "2:18.08",
+            "seconds": 138.08
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Earhart, Amelia",
+              "gender": "F",
+              "legOrder": 1
+            },
+            {
+              "name": "Monroe, Marilyn",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Hamm, Mia",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Biles, Simone",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "GG",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:28.40",
+            "seconds": 148.4
+          },
+          "finalTime": {
+            "text": "2:22.83",
+            "seconds": 142.83
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Marley, Bob",
+              "gender": "M",
+              "legOrder": 1
+            },
+            {
+              "name": "Sotomayor, Sonia",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Tubman, Harriet",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Lawrence, Jennifer",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "GG",
+          "relayLetter": "B",
+          "seedTime": {
+            "text": "2:30.19",
+            "seconds": 150.19
+          },
+          "finalTime": {
+            "text": "2:32.38",
+            "seconds": 152.38
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Sagan, Carl",
+              "gender": "M",
+              "legOrder": 1
+            },
+            {
+              "name": "Ride, Sally",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Stone, Emma",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Bronte, Emily",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "WW",
+          "relayLetter": "B",
+          "seedTime": {
+            "text": "3:54.33",
+            "seconds": 234.33
+          },
+          "finalTime": {
+            "text": "3:45.32",
+            "seconds": 225.32
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Frank, Anne",
+              "gender": "F",
+              "legOrder": 1
+            },
+            {
+              "name": "Hemingway, Ernest",
+              "gender": "M",
+              "legOrder": 2
+            },
+            {
+              "name": "Hepburn, Audrey",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Darwin, Charles",
+              "gender": "M",
+              "legOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "53",
+      "type": "relay",
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Medley",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 200m Medley Relay",
+      "results": [
+        {
+          "kind": "relay",
+          "teamCode": "GG",
+          "relayLetter": "A",
+          "seedTime": null,
+          "finalTime": {
+            "text": "2:28.89",
+            "seconds": 148.89
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Phelps, Michael",
+              "gender": "M",
+              "legOrder": 1
+            },
+            {
+              "name": "Verne, Jules",
+              "gender": "M",
+              "legOrder": 2
+            },
+            {
+              "name": "Charles, Ray",
+              "gender": "M",
+              "legOrder": 3
+            },
+            {
+              "name": "Armstrong, Louis",
+              "gender": "M",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "WW",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:49.24",
+            "seconds": 169.24
+          },
+          "finalTime": {
+            "text": "2:49.45",
+            "seconds": 169.45
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Douglass, Frederick",
+              "gender": "M",
+              "legOrder": 1
+            },
+            {
+              "name": "Washington, George",
+              "gender": "M",
+              "legOrder": 2
+            },
+            {
+              "name": "Mozart, Wolfgang",
+              "gender": "M",
+              "legOrder": 3
+            },
+            {
+              "name": "Mandela, Nelson",
+              "gender": "M",
+              "legOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "54",
+      "type": "relay",
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Medley",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 200m Medley Relay",
+      "results": [
+        {
+          "kind": "relay",
+          "teamCode": "GG",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:57.11",
+            "seconds": 177.11
+          },
+          "finalTime": {
+            "text": "2:58.36",
+            "seconds": 178.36
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Rowling, Joanne",
+              "gender": "F",
+              "legOrder": 1
+            },
+            {
+              "name": "Morrison, Toni",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Weaver, Sigourney",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Davis, Bette",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "WW",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "3:22.41",
+            "seconds": 202.41
+          },
+          "finalTime": {
+            "text": "3:26.88",
+            "seconds": 206.88
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "legs": [
+            {
+              "name": "King, Billie",
+              "gender": "F",
+              "legOrder": 1
+            },
+            {
+              "name": "Kahlo, Frida",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Williams, Serena",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Curie, Marie",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ],
+          "dqCode": "6G",
+          "dqReason": "Early take-off swimmer #3"
+        }
+      ]
+    },
+    {
+      "number": "55",
+      "type": "relay",
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 200m Freestyle Relay",
+      "results": [
+        {
+          "kind": "relay",
+          "teamCode": "GG",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:29.57",
+            "seconds": 149.57
+          },
+          "finalTime": {
+            "text": "2:21.63",
+            "seconds": 141.63
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Robinson, Jackie",
+              "gender": "M",
+              "legOrder": 1
+            },
+            {
+              "name": "Holly, Buddy",
+              "gender": "M",
+              "legOrder": 2
+            },
+            {
+              "name": "Galilei, Galileo",
+              "gender": "M",
+              "legOrder": 3
+            },
+            {
+              "name": "Presley, Elvis",
+              "gender": "M",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "WW",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:20.32",
+            "seconds": 140.32
+          },
+          "finalTime": {
+            "text": "2:22.02",
+            "seconds": 142.02
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Obama, Barack",
+              "gender": "M",
+              "legOrder": 1
+            },
+            {
+              "name": "Vinci, Leonardo",
+              "gender": "M",
+              "legOrder": 2
+            },
+            {
+              "name": "Lincoln, Abraham",
+              "gender": "M",
+              "legOrder": 3
+            },
+            {
+              "name": "Einstein, Albert",
+              "gender": "M",
+              "legOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "56",
+      "type": "relay",
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 200m Freestyle Relay",
+      "results": [
+        {
+          "kind": "relay",
+          "teamCode": "GG",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:34.95",
+            "seconds": 154.95
+          },
+          "finalTime": {
+            "text": "2:32.42",
+            "seconds": 152.42
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Potter, Beatrix",
+              "gender": "F",
+              "legOrder": 1
+            },
+            {
+              "name": "Windsor, Victoria",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Bello, Michelle",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Carey, Mariah",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "teamCode": "WW",
+          "relayLetter": "A",
+          "seedTime": {
+            "text": "2:30.25",
+            "seconds": 150.25
+          },
+          "finalTime": {
+            "text": "2:34.90",
+            "seconds": 154.9
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Lovelace, Ada",
+              "gender": "F",
+              "legOrder": 1
+            },
+            {
+              "name": "Dickinson, Emily",
+              "gender": "F",
+              "legOrder": 2
+            },
+            {
+              "name": "Rudolph, Wilma",
+              "gender": "F",
+              "legOrder": 3
+            },
+            {
+              "name": "Austen, Jane",
+              "gender": "F",
+              "legOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "type": "individual",
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Boys 10 & Under 100m IM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Phelps, Michael",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:34.92",
+            "seconds": 94.92
+          },
+          "finalTime": {
+            "text": "1:37.32",
+            "seconds": 97.32
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "phelps|michael|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Robinson, Jackie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "2:01.12",
+            "seconds": 121.12
+          },
+          "finalTime": {
+            "text": "2:02.15",
+            "seconds": 122.15
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "robinson|jackie|9-10"
+        }
+      ]
+    },
+    {
+      "number": "45",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Robinson, Jackie",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:07.87",
+            "seconds": 67.87
+          },
+          "finalTime": {
+            "text": "1:08.73",
+            "seconds": 68.73
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "1E",
+          "dqReason": "Arms: Non-simultaneous",
+          "swimmerId": "robinson|jackie|9-10"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Disney, Walt",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:41.56",
+            "seconds": 101.56
+          },
+          "finalTime": {
+            "text": "1:49.61",
+            "seconds": 109.61
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "1F",
+          "dqReason": "Arms: Underwater recovery",
+          "swimmerId": "disney|walt|9-10"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "type": "individual",
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "ageGroup": {
+        "label": "7-8",
+        "lower": 7,
+        "upper": 8
+      },
+      "description": "Boys 7-8 25m Freestyle",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Rachmaninoff, Sergei",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "22.59",
+            "seconds": 22.59
+          },
+          "finalTime": {
+            "text": "24.44",
+            "seconds": 24.44
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "rachmaninoff|sergei|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Berry, Chuck",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "30.07",
+            "seconds": 30.07
+          },
+          "finalTime": {
+            "text": "30.04",
+            "seconds": 30.04
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "berry|chuck|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sagan, Carl",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "40.03",
+            "seconds": 40.03
+          },
+          "finalTime": {
+            "text": "38.73",
+            "seconds": 38.73
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "sagan|carl|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kafka, Franz",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "32.11",
+            "seconds": 32.11
+          },
+          "finalTime": {
+            "text": "34.07",
+            "seconds": 34.07
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "kafka|franz|7-8"
+        }
+      ]
+    },
+    {
+      "number": "52",
+      "type": "individual",
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "15-18",
+        "lower": 15,
+        "upper": 18
+      },
+      "description": "Girls 15-18 50m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Anthony, Susan",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "44.68",
+            "seconds": 44.68
+          },
+          "finalTime": {
+            "text": "45.81",
+            "seconds": 45.81
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "anthony|susan|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Fenty, Rihanna",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "1:01.94",
+            "seconds": 61.94
+          },
+          "finalTime": {
+            "text": "1:02.62",
+            "seconds": 62.62
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "fenty|rihanna|15-18"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Carson, Rachel",
+          "teamCode": "GG",
+          "seedTime": null,
+          "finalTime": {
+            "text": "51.04",
+            "seconds": 51.04
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "points": 0,
+          "swimmerId": "carson|rachel|15-18"
+        }
+      ]
+    },
+    {
+      "number": "21",
+      "type": "individual",
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Breaststroke",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 25m Breaststroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Kafka, Franz",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "46.86",
+            "seconds": 46.86
+          },
+          "finalTime": {
+            "text": "47.43",
+            "seconds": 47.43
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3A",
+          "dqReason": "Kick: Alternating",
+          "swimmerId": "kafka|franz|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rachmaninoff, Sergei",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "36.50",
+            "seconds": 36.5
+          },
+          "finalTime": {
+            "text": "43.05",
+            "seconds": 43.05
+          },
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "points": 0,
+          "dqCode": "3B",
+          "dqReason": "Kick: Butterfly",
+          "swimmerId": "rachmaninoff|sergei|7-8"
+        }
+      ]
+    },
+    {
+      "number": "43",
+      "type": "individual",
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Butterfly",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 25m Butterfly",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Rachmaninoff, Sergei",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "29.53",
+            "seconds": 29.53
+          },
+          "finalTime": {
+            "text": "33.30",
+            "seconds": 33.3
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "rachmaninoff|sergei|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kafka, Franz",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.21",
+            "seconds": 58.21
+          },
+          "finalTime": {
+            "text": "51.71",
+            "seconds": 51.71
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "kafka|franz|7-8"
+        }
+      ]
+    },
+    {
+      "number": "33",
+      "type": "individual",
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "ageGroup": {
+        "label": "7-8",
+        "lower": 7,
+        "upper": 8
+      },
+      "description": "Boys 7-8 25m Backstroke",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Berry, Chuck",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "27.94",
+            "seconds": 27.94
+          },
+          "finalTime": {
+            "text": "29.71",
+            "seconds": 29.71
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "points": 0,
+          "swimmerId": "berry|chuck|7-8"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Marley, Bob",
+          "teamCode": "GG",
+          "seedTime": {
+            "text": "58.31",
+            "seconds": 58.31
+          },
+          "finalTime": {
+            "text": "1:01.20",
+            "seconds": 61.2
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "points": 0,
+          "swimmerId": "marley|bob|7-8"
+        }
+      ]
+    }
+  ],
+  "ageProfile": "gpsa"
+}

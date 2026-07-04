@@ -1,0 +1,13 @@
+[project]
+name = "app-census"
+version = "0.0.0"
+description = "GPSA census: DOB-free swim-meet ingest (FastAPI) + analytics dashboard (Streamlit) over Postgres."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+# Run tests from the repo root so `from leagues import ...` resolves without an install.
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
