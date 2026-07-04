@@ -1,13 +1,13 @@
 {
-  "format": "hy3",
+  "format": "sdif-v3",
   "source": {
-    "software": "SwimTopia",
-    "createdAt": "2026-07-03"
+    "software": "SwimTopia"
   },
   "meet": {
-    "name": "2026 Glendale Gators at Wendwood Wahoos",
-    "rawName": "2026 Glendale Gators at Wendwood Wahoos",
-    "startDate": "2026-06-29"
+    "name": "2026 Wendwood Wahoos v. Glendale Gators",
+    "rawName": "2026 Glendale Gators at Wendwo",
+    "startDate": "2026-06-29",
+    "hostName": "Wendwood Wahoos"
   },
   "teams": [
     {
@@ -1203,8 +1203,8 @@
           "swimmerName": "Einstein, Albert",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:10.96",
-            "seconds": 70.96
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "1:11.35",
@@ -1213,17 +1213,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "einstein|albert|15-18"
         },
         {
           "kind": "individual",
           "swimmerName": "Charles, Ray",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "1:13.70",
-            "seconds": 73.7
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "1:13.98",
             "seconds": 73.98
@@ -1231,7 +1228,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "charles|ray|15-18"
         },
         {
@@ -1239,8 +1236,8 @@
           "swimmerName": "Asimov, Isaac",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:22.83",
-            "seconds": 82.83
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "1:22.91",
@@ -1249,7 +1246,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "asimov|isaac|15-18"
         }
       ]
@@ -1272,8 +1269,8 @@
           "swimmerName": "Einstein, Albert",
           "teamCode": "WW",
           "seedTime": {
-            "text": "28.15",
-            "seconds": 28.15
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "28.05",
@@ -1282,7 +1279,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "einstein|albert|15-18"
         },
         {
@@ -1290,8 +1287,8 @@
           "swimmerName": "Presley, Elvis",
           "teamCode": "GG",
           "seedTime": {
-            "text": "27.98",
-            "seconds": 27.98
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "28.20",
@@ -1300,7 +1297,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "presley|elvis|15-18"
         },
         {
@@ -1308,8 +1305,8 @@
           "swimmerName": "Asimov, Isaac",
           "teamCode": "GG",
           "seedTime": {
-            "text": "30.93",
-            "seconds": 30.93
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "31.23",
@@ -1318,7 +1315,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "asimov|isaac|15-18"
         },
         {
@@ -1326,8 +1323,8 @@
           "swimmerName": "Newton, Isaac",
           "teamCode": "WW",
           "seedTime": {
-            "text": "37.25",
-            "seconds": 37.25
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "38.36",
@@ -1344,8 +1341,8 @@
           "swimmerName": "Owens, Jesse",
           "teamCode": "GG",
           "seedTime": {
-            "text": "37.05",
-            "seconds": 37.05
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "36.44",
@@ -1361,10 +1358,7 @@
           "kind": "individual",
           "swimmerName": "Sinatra, Frank",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "35.30",
-            "seconds": 35.3
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "35.86",
             "seconds": 35.86
@@ -1380,8 +1374,8 @@
           "swimmerName": "Roosevelt, Franklin",
           "teamCode": "GG",
           "seedTime": {
-            "text": "34.64",
-            "seconds": 34.64
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "34.69",
@@ -1413,8 +1407,8 @@
           "swimmerName": "Einstein, Albert",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.55",
-            "seconds": 35.55
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "36.97",
@@ -1423,7 +1417,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "einstein|albert|15-18"
         },
         {
@@ -1431,8 +1425,8 @@
           "swimmerName": "Presley, Elvis",
           "teamCode": "GG",
           "seedTime": {
-            "text": "37.85",
-            "seconds": 37.85
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "37.69",
@@ -1441,7 +1435,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "presley|elvis|15-18"
         },
         {
@@ -1449,8 +1443,8 @@
           "swimmerName": "Roosevelt, Franklin",
           "teamCode": "GG",
           "seedTime": {
-            "text": "40.99",
-            "seconds": 40.99
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "41.23",
@@ -1459,7 +1453,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "roosevelt|franklin|15-18"
         },
         {
@@ -1467,8 +1461,8 @@
           "swimmerName": "Newton, Isaac",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:02.51",
-            "seconds": 62.51
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:04.48",
@@ -1500,8 +1494,8 @@
           "swimmerName": "Presley, Elvis",
           "teamCode": "GG",
           "seedTime": {
-            "text": "30.06",
-            "seconds": 30.06
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "31.18",
@@ -1510,7 +1504,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "presley|elvis|15-18"
         },
         {
@@ -1525,7 +1519,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "charles|ray|15-18"
         },
         {
@@ -1533,8 +1527,8 @@
           "swimmerName": "Einstein, Albert",
           "teamCode": "WW",
           "seedTime": {
-            "text": "31.22",
-            "seconds": 31.22
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "32.91",
@@ -1543,7 +1537,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "einstein|albert|15-18"
         },
         {
@@ -1551,19 +1545,14 @@
           "swimmerName": "Newton, Isaac",
           "teamCode": "WW",
           "seedTime": {
-            "text": "55.27",
-            "seconds": 55.27
+            "text": "7.00",
+            "seconds": 7
           },
-          "finalTime": {
-            "text": "59.14",
-            "seconds": 59.14
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "1F",
-          "dqReason": "Arms: Underwater recovery",
           "swimmerId": "newton|isaac|15-18"
         }
       ]
@@ -1586,8 +1575,8 @@
           "swimmerName": "Charles, Ray",
           "teamCode": "GG",
           "seedTime": {
-            "text": "34.29",
-            "seconds": 34.29
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "33.97",
@@ -1596,7 +1585,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "charles|ray|15-18"
         },
         {
@@ -1604,8 +1593,8 @@
           "swimmerName": "Vinci, Leonardo",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.47",
-            "seconds": 35.47
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "37.35",
@@ -1614,7 +1603,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "vinci|leonardo|11-12"
         },
         {
@@ -1622,8 +1611,8 @@
           "swimmerName": "Sinatra, Frank",
           "teamCode": "GG",
           "seedTime": {
-            "text": "48.68",
-            "seconds": 48.68
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "44.63",
@@ -1632,7 +1621,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "sinatra|frank|15-18"
         },
         {
@@ -1640,8 +1629,8 @@
           "swimmerName": "Newton, Isaac",
           "teamCode": "WW",
           "seedTime": {
-            "text": "53.38",
-            "seconds": 53.38
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "55.43",
@@ -1673,8 +1662,8 @@
           "swimmerName": "Dickens, Charles",
           "teamCode": "GG",
           "seedTime": {
-            "text": "37.29",
-            "seconds": 37.29
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "35.45",
@@ -1683,7 +1672,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "dickens|charles|6&u"
         },
         {
@@ -1691,8 +1680,8 @@
           "swimmerName": "Federer, Roger",
           "teamCode": "GG",
           "seedTime": {
-            "text": "42.54",
-            "seconds": 42.54
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "39.23",
@@ -1701,7 +1690,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "federer|roger|6&u"
         },
         {
@@ -1709,8 +1698,8 @@
           "swimmerName": "Hemingway, Ernest",
           "teamCode": "WW",
           "seedTime": {
-            "text": "53.65",
-            "seconds": 53.65
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "45.93",
@@ -1719,7 +1708,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hemingway|ernest|6&u"
         },
         {
@@ -1727,11 +1716,11 @@
           "swimmerName": "Darwin, Charles",
           "teamCode": "WW",
           "seedTime": {
-            "text": "45.67",
-            "seconds": 45.67
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": null,
-          "status": "scratch",
+          "status": "ns",
           "disqualified": false,
           "place": null,
           "points": 0,
@@ -1742,8 +1731,8 @@
           "swimmerName": "Edison, Thomas",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:11.75",
-            "seconds": 71.75
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "1:04.53",
@@ -1760,8 +1749,8 @@
           "swimmerName": "Mercury, Freddie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:00.19",
-            "seconds": 60.19
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "56.94",
@@ -1778,8 +1767,8 @@
           "swimmerName": "Dali, Salvador",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:09.94",
-            "seconds": 69.94
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "1:19.79",
@@ -1796,8 +1785,8 @@
           "swimmerName": "Goethe, Johann",
           "teamCode": "GG",
           "seedTime": {
-            "text": "42.31",
-            "seconds": 42.31
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "46.75",
@@ -1828,10 +1817,7 @@
           "kind": "individual",
           "swimmerName": "Federer, Roger",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "46.80",
-            "seconds": 46.8
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "42.28",
             "seconds": 42.28
@@ -1839,7 +1825,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "federer|roger|6&u"
         },
         {
@@ -1847,8 +1833,8 @@
           "swimmerName": "Dickens, Charles",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.02",
-            "seconds": 39.02
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "44.90",
@@ -1857,7 +1843,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "dickens|charles|6&u"
         },
         {
@@ -1865,8 +1851,8 @@
           "swimmerName": "Darwin, Charles",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:06.29",
-            "seconds": 66.29
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "51.81",
@@ -1875,17 +1861,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "darwin|charles|6&u"
         },
         {
           "kind": "individual",
           "swimmerName": "Hemingway, Ernest",
           "teamCode": "WW",
-          "seedTime": {
-            "text": "1:17.40",
-            "seconds": 77.4
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "1:06.44",
             "seconds": 66.44
@@ -1916,8 +1899,8 @@
           "swimmerName": "Austen, Jane",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:34.27",
-            "seconds": 94.27
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "1:34.43",
@@ -1926,7 +1909,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "austen|jane|9-10"
         },
         {
@@ -1934,8 +1917,8 @@
           "swimmerName": "Rowling, Joanne",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:55.11",
-            "seconds": 115.11
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:53.75",
@@ -1944,7 +1927,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "rowling|joanne|9-10"
         },
         {
@@ -1952,8 +1935,8 @@
           "swimmerName": "Alcott, Louisa",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:55.36",
-            "seconds": 115.36
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "1:57.61",
@@ -1962,7 +1945,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "alcott|louisa|9-10"
         },
         {
@@ -1970,8 +1953,8 @@
           "swimmerName": "Curie, Marie",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:54.74",
-            "seconds": 114.74
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "2:00.91",
@@ -2003,8 +1986,8 @@
           "swimmerName": "Degeneres, Ellen",
           "teamCode": "GG",
           "seedTime": {
-            "text": "45.84",
-            "seconds": 45.84
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "45.59",
@@ -2013,7 +1996,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "degeneres|ellen|11-12"
         },
         {
@@ -2021,8 +2004,8 @@
           "swimmerName": "Jolie, Angelina",
           "teamCode": "GG",
           "seedTime": {
-            "text": "52.34",
-            "seconds": 52.34
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "52.76",
@@ -2031,7 +2014,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "jolie|angelina|11-12"
         },
         {
@@ -2039,8 +2022,8 @@
           "swimmerName": "Keller, Helen",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:05.61",
-            "seconds": 65.61
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:01.72",
@@ -2049,7 +2032,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "keller|helen|9-10"
         },
         {
@@ -2057,16 +2040,11 @@
           "swimmerName": "Curie, Marie",
           "teamCode": "WW",
           "seedTime": null,
-          "finalTime": {
-            "text": "1:01.24",
-            "seconds": 61.24
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "2H",
-          "dqReason": "Not on back off wall",
           "swimmerId": "curie|marie|9-10"
         }
       ]
@@ -2089,8 +2067,8 @@
           "swimmerName": "Austen, Jane",
           "teamCode": "WW",
           "seedTime": {
-            "text": "43.96",
-            "seconds": 43.96
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "44.93",
@@ -2099,7 +2077,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "austen|jane|9-10"
         },
         {
@@ -2107,8 +2085,8 @@
           "swimmerName": "Parton, Dolly",
           "teamCode": "GG",
           "seedTime": {
-            "text": "58.21",
-            "seconds": 58.21
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "57.35",
@@ -2117,7 +2095,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "parton|dolly|9-10"
         },
         {
@@ -2125,8 +2103,8 @@
           "swimmerName": "Windsor, Victoria",
           "teamCode": "GG",
           "seedTime": {
-            "text": "58.23",
-            "seconds": 58.23
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "1:01.78",
@@ -2135,7 +2113,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "windsor|victoria|9-10"
         },
         {
@@ -2143,8 +2121,8 @@
           "swimmerName": "Curie, Marie",
           "teamCode": "WW",
           "seedTime": {
-            "text": "56.49",
-            "seconds": 56.49
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "1:05.51",
@@ -2176,8 +2154,8 @@
           "swimmerName": "Beauvoir, Simone",
           "teamCode": "GG",
           "seedTime": {
-            "text": "25.38",
-            "seconds": 25.38
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "26.78",
@@ -2186,7 +2164,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "beauvoir|simone|6&u"
         },
         {
@@ -2194,8 +2172,8 @@
           "swimmerName": "Earhart, Amelia",
           "teamCode": "WW",
           "seedTime": {
-            "text": "37.13",
-            "seconds": 37.13
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "35.66",
@@ -2204,7 +2182,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "earhart|amelia|6&u"
         },
         {
@@ -2212,8 +2190,8 @@
           "swimmerName": "Johansson, Scarlett",
           "teamCode": "GG",
           "seedTime": {
-            "text": "34.88",
-            "seconds": 34.88
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "37.40",
@@ -2222,7 +2200,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "johansson|scarlett|6&u"
         },
         {
@@ -2230,8 +2208,8 @@
           "swimmerName": "Frank, Anne",
           "teamCode": "WW",
           "seedTime": {
-            "text": "46.46",
-            "seconds": 46.46
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "39.93",
@@ -2248,8 +2226,8 @@
           "swimmerName": "Hepburn, Audrey",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:28.55",
-            "seconds": 88.55
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "2:07.32",
@@ -2266,8 +2244,8 @@
           "swimmerName": "Lamarr, Hedy",
           "teamCode": "GG",
           "seedTime": {
-            "text": "51.31",
-            "seconds": 51.31
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "53.94",
@@ -2284,8 +2262,8 @@
           "swimmerName": "Bronte, Charlotte",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:56.12",
-            "seconds": 116.12
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "2:09.53",
@@ -2302,8 +2280,8 @@
           "swimmerName": "OConnor, Sandra",
           "teamCode": "GG",
           "seedTime": {
-            "text": "56.64",
-            "seconds": 56.64
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "59.89",
@@ -2335,8 +2313,8 @@
           "swimmerName": "Fitzgerald, Ella",
           "teamCode": "GG",
           "seedTime": {
-            "text": "28.65",
-            "seconds": 28.65
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "29.96",
@@ -2345,7 +2323,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "fitzgerald|ella|7-8"
         },
         {
@@ -2353,8 +2331,8 @@
           "swimmerName": "Romanov, Catherine",
           "teamCode": "GG",
           "seedTime": {
-            "text": "30.05",
-            "seconds": 30.05
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "30.13",
@@ -2363,7 +2341,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "romanov|catherine|7-8"
         },
         {
@@ -2371,8 +2349,8 @@
           "swimmerName": "Biles, Simone",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.97",
-            "seconds": 35.97
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "40.10",
@@ -2381,7 +2359,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "biles|simone|7-8"
         },
         {
@@ -2389,8 +2367,8 @@
           "swimmerName": "Earhart, Amelia",
           "teamCode": "WW",
           "seedTime": {
-            "text": "46.16",
-            "seconds": 46.16
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "42.68",
@@ -2407,16 +2385,11 @@
           "swimmerName": "Hamm, Mia",
           "teamCode": "WW",
           "seedTime": null,
-          "finalTime": {
-            "text": "48.12",
-            "seconds": 48.12
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3S",
-          "dqReason": "Cycle: Double pulls/kicks",
           "swimmerId": "hamm|mia|7-8"
         },
         {
@@ -2469,8 +2442,8 @@
           "swimmerName": "Keaton, Diane",
           "teamCode": "GG",
           "seedTime": {
-            "text": "42.54",
-            "seconds": 42.54
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "39.61",
@@ -2479,7 +2452,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "keaton|diane|6&u"
         },
         {
@@ -2487,8 +2460,8 @@
           "swimmerName": "Earhart, Amelia",
           "teamCode": "WW",
           "seedTime": {
-            "text": "38.39",
-            "seconds": 38.39
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "42.72",
@@ -2497,17 +2470,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "earhart|amelia|6&u"
         },
         {
           "kind": "individual",
           "swimmerName": "Frank, Anne",
           "teamCode": "WW",
-          "seedTime": {
-            "text": "56.20",
-            "seconds": 56.2
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "44.44",
             "seconds": 44.44
@@ -2515,7 +2485,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "frank|anne|6&u"
         },
         {
@@ -2538,8 +2508,8 @@
           "swimmerName": "Dion, Celine",
           "teamCode": "GG",
           "seedTime": {
-            "text": "53.24",
-            "seconds": 53.24
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "49.05",
@@ -2571,19 +2541,14 @@
           "swimmerName": "Beauvoir, Simone",
           "teamCode": "GG",
           "seedTime": {
-            "text": "34.37",
-            "seconds": 34.37
+            "text": "7.00",
+            "seconds": 7
           },
-          "finalTime": {
-            "text": "34.35",
-            "seconds": 34.35
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "2T",
-          "dqReason": "Other - Backstroke",
           "swimmerId": "beauvoir|simone|6&u"
         },
         {
@@ -2620,10 +2585,7 @@
           "kind": "individual",
           "swimmerName": "Robinson, Jackie",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "47.30",
-            "seconds": 47.3
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "43.60",
             "seconds": 43.6
@@ -2631,7 +2593,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "robinson|jackie|9-10"
         },
         {
@@ -2639,8 +2601,8 @@
           "swimmerName": "Lincoln, Abraham",
           "teamCode": "WW",
           "seedTime": {
-            "text": "49.48",
-            "seconds": 49.48
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "49.60",
@@ -2649,7 +2611,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "lincoln|abraham|9-10"
         },
         {
@@ -2657,8 +2619,8 @@
           "swimmerName": "Gogh, Vincent",
           "teamCode": "WW",
           "seedTime": {
-            "text": "58.75",
-            "seconds": 58.75
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "58.07",
@@ -2667,7 +2629,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "gogh|vincent|9-10"
         },
         {
@@ -2675,8 +2637,8 @@
           "swimmerName": "Armstrong, Neil",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:19.57",
-            "seconds": 79.57
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "1:04.87",
@@ -2738,8 +2700,8 @@
           "swimmerName": "Lincoln, Abraham",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:07.64",
-            "seconds": 67.64
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "1:09.16",
@@ -2748,17 +2710,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "lincoln|abraham|9-10"
         },
         {
           "kind": "individual",
           "swimmerName": "Disney, Walt",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "1:28.00",
-            "seconds": 88
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "1:21.15",
             "seconds": 81.15
@@ -2766,7 +2725,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "disney|walt|9-10"
         },
         {
@@ -2774,16 +2733,11 @@
           "swimmerName": "Gogh, Vincent",
           "teamCode": "WW",
           "seedTime": null,
-          "finalTime": {
-            "text": "1:27.05",
-            "seconds": 87.05
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3D",
-          "dqReason": "Arms: Past hipline",
           "swimmerId": "gogh|vincent|9-10"
         },
         {
@@ -2791,19 +2745,14 @@
           "swimmerName": "Phelps, Michael",
           "teamCode": "GG",
           "seedTime": {
-            "text": "50.58",
-            "seconds": 50.58
+            "text": "8.00",
+            "seconds": 8
           },
-          "finalTime": {
-            "text": "51.80",
-            "seconds": 51.8
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3T",
-          "dqReason": "Other - Breaststroke",
           "swimmerId": "phelps|michael|9-10"
         }
       ]
@@ -2826,8 +2775,8 @@
           "swimmerName": "Phelps, Michael",
           "teamCode": "GG",
           "seedTime": {
-            "text": "47.48",
-            "seconds": 47.48
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "44.66",
@@ -2836,7 +2785,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "phelps|michael|9-10"
         },
         {
@@ -2844,8 +2793,8 @@
           "swimmerName": "Gogh, Vincent",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:03.58",
-            "seconds": 63.58
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "1:02.33",
@@ -2854,7 +2803,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "gogh|vincent|9-10"
         },
         {
@@ -2862,19 +2811,14 @@
           "swimmerName": "Lincoln, Abraham",
           "teamCode": "WW",
           "seedTime": {
-            "text": "54.62",
-            "seconds": 54.62
+            "text": "2.00",
+            "seconds": 2
           },
-          "finalTime": {
-            "text": "52.72",
-            "seconds": 52.72
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "2L",
-          "dqReason": "Shoulders past vertical towards the breast",
           "swimmerId": "lincoln|abraham|9-10"
         },
         {
@@ -2882,19 +2826,14 @@
           "swimmerName": "Dostoevsky, Fyodor",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:55.53",
-            "seconds": 115.53
+            "text": "3.00",
+            "seconds": 3
           },
-          "finalTime": {
-            "text": "1:51.00",
-            "seconds": 111
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "2L",
-          "dqReason": "Shoulders past vertical towards the breast",
           "swimmerId": "dostoevsky|fyodor|9-10"
         }
       ]
@@ -2917,8 +2856,8 @@
           "swimmerName": "Armstrong, Louis",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:16.06",
-            "seconds": 76.06
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "1:17.98",
@@ -2927,7 +2866,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "armstrong|louis|11-12"
         },
         {
@@ -2935,8 +2874,8 @@
           "swimmerName": "Washington, George",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:19.95",
-            "seconds": 79.95
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "1:24.10",
@@ -2945,7 +2884,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "washington|george|11-12"
         },
         {
@@ -2953,8 +2892,8 @@
           "swimmerName": "Douglass, Frederick",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:27.66",
-            "seconds": 87.66
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "1:43.36",
@@ -2963,7 +2902,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "douglass|frederick|11-12"
         },
         {
@@ -2971,8 +2910,8 @@
           "swimmerName": "Galilei, Galileo",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:55.51",
-            "seconds": 115.51
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:54.45",
@@ -3004,8 +2943,8 @@
           "swimmerName": "Armstrong, Louis",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.09",
-            "seconds": 39.09
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "41.48",
@@ -3014,7 +2953,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "armstrong|louis|11-12"
         },
         {
@@ -3022,8 +2961,8 @@
           "swimmerName": "Washington, George",
           "teamCode": "WW",
           "seedTime": {
-            "text": "41.94",
-            "seconds": 41.94
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "43.94",
@@ -3032,7 +2971,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "washington|george|11-12"
         },
         {
@@ -3040,8 +2979,8 @@
           "swimmerName": "Shakespeare, William",
           "teamCode": "WW",
           "seedTime": {
-            "text": "48.85",
-            "seconds": 48.85
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "52.86",
@@ -3050,7 +2989,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "shakespeare|william|11-12"
         },
         {
@@ -3073,19 +3012,14 @@
           "swimmerName": "Lee, Bruce",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:09.73",
-            "seconds": 69.73
+            "text": "3.00",
+            "seconds": 3
           },
-          "finalTime": {
-            "text": "1:09.99",
-            "seconds": 69.99
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3B",
-          "dqReason": "Kick: Butterfly",
           "swimmerId": "lee|bruce|11-12"
         },
         {
@@ -3093,16 +3027,11 @@
           "swimmerName": "Hugo, Victor",
           "teamCode": "GG",
           "seedTime": null,
-          "finalTime": {
-            "text": "1:34.23",
-            "seconds": 94.23
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3B",
-          "dqReason": "Kick: Butterfly",
           "swimmerId": "hugo|victor|11-12"
         },
         {
@@ -3140,8 +3069,8 @@
           "swimmerName": "Douglass, Frederick",
           "teamCode": "WW",
           "seedTime": {
-            "text": "36.28",
-            "seconds": 36.28
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "36.21",
@@ -3150,7 +3079,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "douglass|frederick|11-12"
         },
         {
@@ -3158,8 +3087,8 @@
           "swimmerName": "Washington, George",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.86",
-            "seconds": 35.86
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "38.38",
@@ -3168,7 +3097,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "washington|george|11-12"
         },
         {
@@ -3176,8 +3105,8 @@
           "swimmerName": "Galilei, Galileo",
           "teamCode": "GG",
           "seedTime": {
-            "text": "51.39",
-            "seconds": 51.39
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "51.43",
@@ -3186,7 +3115,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "galilei|galileo|11-12"
         },
         {
@@ -3194,19 +3123,14 @@
           "swimmerName": "Adams, Ansel",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:22.66",
-            "seconds": 82.66
+            "text": "6.00",
+            "seconds": 6
           },
-          "finalTime": {
-            "text": "1:21.53",
-            "seconds": 81.53
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "1F",
-          "dqReason": "Arms: Underwater recovery",
           "swimmerId": "adams|ansel|11-12"
         }
       ]
@@ -3229,8 +3153,8 @@
           "swimmerName": "Lovelace, Ada",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:17.11",
-            "seconds": 77.11
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:15.58",
@@ -3239,7 +3163,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "lovelace|ada|13-14"
         },
         {
@@ -3247,8 +3171,8 @@
           "swimmerName": "Morrison, Toni",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:39.69",
-            "seconds": 99.69
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "1:38.14",
@@ -3257,7 +3181,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "morrison|toni|13-14"
         },
         {
@@ -3265,8 +3189,8 @@
           "swimmerName": "Hayworth, Rita",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:49.37",
-            "seconds": 109.37
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "1:48.84",
@@ -3275,7 +3199,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hayworth|rita|13-14"
         },
         {
@@ -3283,8 +3207,8 @@
           "swimmerName": "Rudolph, Wilma",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:46.63",
-            "seconds": 106.63
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "1:49.73",
@@ -3316,8 +3240,8 @@
           "swimmerName": "Lovelace, Ada",
           "teamCode": "WW",
           "seedTime": {
-            "text": "30.98",
-            "seconds": 30.98
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "31.39",
@@ -3326,7 +3250,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "lovelace|ada|13-14"
         },
         {
@@ -3334,8 +3258,8 @@
           "swimmerName": "Carey, Mariah",
           "teamCode": "GG",
           "seedTime": {
-            "text": "33.59",
-            "seconds": 33.59
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "34.05",
@@ -3344,7 +3268,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "carey|mariah|13-14"
         },
         {
@@ -3352,8 +3276,8 @@
           "swimmerName": "Rudolph, Wilma",
           "teamCode": "WW",
           "seedTime": {
-            "text": "38.77",
-            "seconds": 38.77
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "40.26",
@@ -3362,7 +3286,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "rudolph|wilma|13-14"
         },
         {
@@ -3370,8 +3294,8 @@
           "swimmerName": "Piaf, Edith",
           "teamCode": "GG",
           "seedTime": {
-            "text": "43.95",
-            "seconds": 43.95
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "43.18",
@@ -3410,7 +3334,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "lovelace|ada|13-14"
         },
         {
@@ -3418,8 +3342,8 @@
           "swimmerName": "Carey, Mariah",
           "teamCode": "GG",
           "seedTime": {
-            "text": "38.84",
-            "seconds": 38.84
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "39.78",
@@ -3428,7 +3352,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "carey|mariah|13-14"
         },
         {
@@ -3436,8 +3360,8 @@
           "swimmerName": "Hayworth, Rita",
           "teamCode": "GG",
           "seedTime": {
-            "text": "44.37",
-            "seconds": 44.37
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "50.23",
@@ -3446,7 +3370,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hayworth|rita|13-14"
         },
         {
@@ -3454,8 +3378,8 @@
           "swimmerName": "Rudolph, Wilma",
           "teamCode": "WW",
           "seedTime": {
-            "text": "47.73",
-            "seconds": 47.73
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "51.49",
@@ -3487,8 +3411,8 @@
           "swimmerName": "Austen, Jane",
           "teamCode": "WW",
           "seedTime": {
-            "text": "37.98",
-            "seconds": 37.98
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "38.95",
@@ -3497,7 +3421,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "austen|jane|9-10"
         },
         {
@@ -3505,8 +3429,8 @@
           "swimmerName": "Dickinson, Emily",
           "teamCode": "WW",
           "seedTime": {
-            "text": "42.52",
-            "seconds": 42.52
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "46.37",
@@ -3515,7 +3439,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "dickinson|emily|9-10"
         },
         {
@@ -3523,8 +3447,8 @@
           "swimmerName": "Thatcher, Margaret",
           "teamCode": "GG",
           "seedTime": {
-            "text": "45.75",
-            "seconds": 45.75
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "47.37",
@@ -3533,17 +3457,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "thatcher|margaret|9-10"
         },
         {
           "kind": "individual",
           "swimmerName": "Franklin, Aretha",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "47.70",
-            "seconds": 47.7
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "50.41",
             "seconds": 50.41
@@ -3559,8 +3480,8 @@
           "swimmerName": "Keller, Helen",
           "teamCode": "WW",
           "seedTime": {
-            "text": "48.86",
-            "seconds": 48.86
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "49.52",
@@ -3577,8 +3498,8 @@
           "swimmerName": "Watson, Emma",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:09.31",
-            "seconds": 69.31
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:05.76",
@@ -3595,8 +3516,8 @@
           "swimmerName": "Holiday, Billie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "59.95",
-            "seconds": 59.95
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "58.57",
@@ -3613,8 +3534,8 @@
           "swimmerName": "Lee, Harper",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:15.74",
-            "seconds": 75.74
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "1:16.31",
@@ -3646,8 +3567,8 @@
           "swimmerName": "Weaver, Sigourney",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.12",
-            "seconds": 39.12
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "36.26",
@@ -3656,7 +3577,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "weaver|sigourney|15-18"
         },
         {
@@ -3664,8 +3585,8 @@
           "swimmerName": "Kahlo, Frida",
           "teamCode": "WW",
           "seedTime": {
-            "text": "42.49",
-            "seconds": 42.49
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "44.05",
@@ -3674,7 +3595,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "kahlo|frida|13-14"
         },
         {
@@ -3689,7 +3610,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hopper|grace|13-14"
         },
         {
@@ -3697,8 +3618,8 @@
           "swimmerName": "Knowles, Beyonce",
           "teamCode": "GG",
           "seedTime": {
-            "text": "58.75",
-            "seconds": 58.75
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "51.40",
@@ -3729,10 +3650,7 @@
           "kind": "individual",
           "swimmerName": "Morrison, Toni",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "50.00",
-            "seconds": 50
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "49.54",
             "seconds": 49.54
@@ -3740,7 +3658,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "morrison|toni|13-14"
         },
         {
@@ -3748,8 +3666,8 @@
           "swimmerName": "Bello, Michelle",
           "teamCode": "GG",
           "seedTime": {
-            "text": "54.68",
-            "seconds": 54.68
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "51.37",
@@ -3758,7 +3676,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "bello|michelle|13-14"
         },
         {
@@ -3766,8 +3684,8 @@
           "swimmerName": "Kahlo, Frida",
           "teamCode": "WW",
           "seedTime": {
-            "text": "53.58",
-            "seconds": 53.58
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "53.56",
@@ -3776,7 +3694,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "kahlo|frida|13-14"
         },
         {
@@ -3784,8 +3702,8 @@
           "swimmerName": "Williams, Serena",
           "teamCode": "WW",
           "seedTime": {
-            "text": "56.35",
-            "seconds": 56.35
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "58.75",
@@ -3817,8 +3735,8 @@
           "swimmerName": "Bello, Michelle",
           "teamCode": "GG",
           "seedTime": {
-            "text": "42.08",
-            "seconds": 42.08
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "41.77",
@@ -3827,7 +3745,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "bello|michelle|13-14"
         },
         {
@@ -3835,8 +3753,8 @@
           "swimmerName": "Williams, Serena",
           "teamCode": "WW",
           "seedTime": {
-            "text": "47.21",
-            "seconds": 47.21
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "46.75",
@@ -3845,7 +3763,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "williams|serena|13-14"
         },
         {
@@ -3853,8 +3771,8 @@
           "swimmerName": "Hayworth, Rita",
           "teamCode": "GG",
           "seedTime": {
-            "text": "49.25",
-            "seconds": 49.25
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "50.15",
@@ -3863,17 +3781,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hayworth|rita|13-14"
         },
         {
           "kind": "individual",
           "swimmerName": "Kahlo, Frida",
           "teamCode": "WW",
-          "seedTime": {
-            "text": "52.10",
-            "seconds": 52.1
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "51.76",
             "seconds": 51.76
@@ -3904,8 +3819,8 @@
           "swimmerName": "King, Billie",
           "teamCode": "WW",
           "seedTime": {
-            "text": "54.66",
-            "seconds": 54.66
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "56.54",
@@ -3914,17 +3829,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "king|billie|9-10"
         },
         {
           "kind": "individual",
           "swimmerName": "Windsor, Victoria",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "58.90",
-            "seconds": 58.9
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "57.94",
             "seconds": 57.94
@@ -3932,7 +3844,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "windsor|victoria|9-10"
         },
         {
@@ -3940,8 +3852,8 @@
           "swimmerName": "Parton, Dolly",
           "teamCode": "GG",
           "seedTime": {
-            "text": "58.94",
-            "seconds": 58.94
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "58.54",
@@ -3950,7 +3862,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "parton|dolly|9-10"
         },
         {
@@ -3958,8 +3870,8 @@
           "swimmerName": "Dickinson, Emily",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:03.82",
-            "seconds": 63.82
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "1:03.39",
@@ -3991,19 +3903,14 @@
           "swimmerName": "Steinem, Gloria",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:26.51",
-            "seconds": 86.51
+            "text": "1.00",
+            "seconds": 1
           },
-          "finalTime": {
-            "text": "1:24.07",
-            "seconds": 84.07
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3E",
-          "dqReason": "Arms: Non-simultaneous",
           "swimmerId": "steinem|gloria|9-10"
         },
         {
@@ -4025,10 +3932,7 @@
           "kind": "individual",
           "swimmerName": "Sarandon, Susan",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "1:12.50",
-            "seconds": 72.5
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "1:11.58",
             "seconds": 71.58
@@ -4059,8 +3963,8 @@
           "swimmerName": "Rowling, Joanne",
           "teamCode": "GG",
           "seedTime": {
-            "text": "49.83",
-            "seconds": 49.83
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "49.98",
@@ -4069,7 +3973,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "rowling|joanne|9-10"
         },
         {
@@ -4077,8 +3981,8 @@
           "swimmerName": "Alcott, Louisa",
           "teamCode": "GG",
           "seedTime": {
-            "text": "53.69",
-            "seconds": 53.69
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "55.89",
@@ -4087,7 +3991,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "alcott|louisa|9-10"
         },
         {
@@ -4095,8 +3999,8 @@
           "swimmerName": "Angelou, Maya",
           "teamCode": "WW",
           "seedTime": {
-            "text": "55.21",
-            "seconds": 55.21
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "57.57",
@@ -4105,27 +4009,19 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "angelou|maya|9-10"
         },
         {
           "kind": "individual",
           "swimmerName": "Dickinson, Emily",
           "teamCode": "WW",
-          "seedTime": {
-            "text": "50.30",
-            "seconds": 50.3
-          },
-          "finalTime": {
-            "text": "52.54",
-            "seconds": 52.54
-          },
+          "seedTime": null,
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "2L",
-          "dqReason": "Shoulders past vertical towards the breast",
           "swimmerId": "dickinson|emily|9-10"
         },
         {
@@ -4148,8 +4044,8 @@
           "swimmerName": "Merkel, Angela",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:01.42",
-            "seconds": 61.42
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "55.88",
@@ -4166,8 +4062,8 @@
           "swimmerName": "Tereshkova, Valentina",
           "teamCode": "GG",
           "seedTime": {
-            "text": "59.27",
-            "seconds": 59.27
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "1:01.44",
@@ -4184,8 +4080,8 @@
           "swimmerName": "Garland, Judy",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:17.68",
-            "seconds": 77.68
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "1:24.11",
@@ -4217,8 +4113,8 @@
           "swimmerName": "Vinci, Leonardo",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.47",
-            "seconds": 35.47
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "37.61",
@@ -4227,7 +4123,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "vinci|leonardo|11-12"
         },
         {
@@ -4235,8 +4131,8 @@
           "swimmerName": "Douglass, Frederick",
           "teamCode": "WW",
           "seedTime": {
-            "text": "38.77",
-            "seconds": 38.77
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "40.76",
@@ -4245,17 +4141,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "douglass|frederick|11-12"
         },
         {
           "kind": "individual",
           "swimmerName": "Bolt, Usain",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "1:00.90",
-            "seconds": 60.9
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "58.25",
             "seconds": 58.25
@@ -4263,7 +4156,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "bolt|usain|11-12"
         },
         {
@@ -4271,8 +4164,8 @@
           "swimmerName": "Wonder, Stevie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:02.59",
-            "seconds": 62.59
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "1:02.08",
@@ -4304,8 +4197,8 @@
           "swimmerName": "Degeneres, Ellen",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:39.48",
-            "seconds": 99.48
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "1:37.65",
@@ -4314,7 +4207,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "degeneres|ellen|11-12"
         },
         {
@@ -4322,8 +4215,8 @@
           "swimmerName": "Davis, Bette",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:39.75",
-            "seconds": 99.75
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "1:39.97",
@@ -4332,7 +4225,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "davis|bette|11-12"
         },
         {
@@ -4340,8 +4233,8 @@
           "swimmerName": "Angelou, Maya",
           "teamCode": "WW",
           "seedTime": {
-            "text": "2:05.79",
-            "seconds": 125.79
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "2:07.00",
@@ -4350,17 +4243,14 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "angelou|maya|9-10"
         },
         {
           "kind": "individual",
           "swimmerName": "Franklin, Rosalind",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "1:52.80",
-            "seconds": 112.8
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "1:56.03",
             "seconds": 116.03
@@ -4391,8 +4281,8 @@
           "swimmerName": "Potter, Beatrix",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.11",
-            "seconds": 39.11
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "37.72",
@@ -4401,7 +4291,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "potter|beatrix|11-12"
         },
         {
@@ -4409,8 +4299,8 @@
           "swimmerName": "Jolie, Angelina",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.76",
-            "seconds": 39.76
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "38.55",
@@ -4419,7 +4309,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "jolie|angelina|11-12"
         },
         {
@@ -4427,8 +4317,8 @@
           "swimmerName": "King, Billie",
           "teamCode": "WW",
           "seedTime": {
-            "text": "45.83",
-            "seconds": 45.83
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "45.42",
@@ -4437,7 +4327,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "king|billie|9-10"
         },
         {
@@ -4445,8 +4335,8 @@
           "swimmerName": "Angelou, Maya",
           "teamCode": "WW",
           "seedTime": {
-            "text": "46.19",
-            "seconds": 46.19
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "48.10",
@@ -4493,8 +4383,8 @@
           "swimmerName": "Pavlova, Anna",
           "teamCode": "GG",
           "seedTime": {
-            "text": "46.66",
-            "seconds": 46.66
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "49.17",
@@ -4541,8 +4431,8 @@
           "swimmerName": "Gandhi, Indira",
           "teamCode": "GG",
           "seedTime": {
-            "text": "20.95",
-            "seconds": 20.95
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "21.99",
@@ -4551,7 +4441,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "gandhi|indira|7-8"
         },
         {
@@ -4559,8 +4449,8 @@
           "swimmerName": "Jemison, Mae",
           "teamCode": "GG",
           "seedTime": {
-            "text": "24.27",
-            "seconds": 24.27
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "24.37",
@@ -4569,7 +4459,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "jemison|mae|7-8"
         },
         {
@@ -4577,8 +4467,8 @@
           "swimmerName": "Monroe, Marilyn",
           "teamCode": "WW",
           "seedTime": {
-            "text": "38.14",
-            "seconds": 38.14
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "38.00",
@@ -4587,7 +4477,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "monroe|marilyn|7-8"
         },
         {
@@ -4610,8 +4500,8 @@
           "swimmerName": "Biles, Simone",
           "teamCode": "WW",
           "seedTime": {
-            "text": "28.81",
-            "seconds": 28.81
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "33.03",
@@ -4628,19 +4518,14 @@
           "swimmerName": "Hamm, Mia",
           "teamCode": "WW",
           "seedTime": {
-            "text": "43.67",
-            "seconds": 43.67
+            "text": "7.00",
+            "seconds": 7
           },
-          "finalTime": {
-            "text": "44.27",
-            "seconds": 44.27
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "4C",
-          "dqReason": "Re-submerged",
           "swimmerId": "hamm|mia|7-8"
         },
         {
@@ -4648,8 +4533,8 @@
           "swimmerName": "Comaneci, Nadia",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.56",
-            "seconds": 39.56
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "43.15",
@@ -4666,8 +4551,8 @@
           "swimmerName": "Ledecky, Katie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "27.92",
-            "seconds": 27.92
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "25.81",
@@ -4684,8 +4569,8 @@
           "swimmerName": "Stone, Emma",
           "teamCode": "GG",
           "seedTime": {
-            "text": "36.13",
-            "seconds": 36.13
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "36.81",
@@ -4702,8 +4587,8 @@
           "swimmerName": "Houston, Whitney",
           "teamCode": "GG",
           "seedTime": {
-            "text": "38.09",
-            "seconds": 38.09
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "38.32",
@@ -4720,8 +4605,8 @@
           "swimmerName": "Taylor, Elizabeth",
           "teamCode": "GG",
           "seedTime": {
-            "text": "43.75",
-            "seconds": 43.75
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "42.15",
@@ -4737,10 +4622,7 @@
           "kind": "individual",
           "swimmerName": "Foster, Jodie",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "41.00",
-            "seconds": 41
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "41.77",
             "seconds": 41.77
@@ -4771,8 +4653,8 @@
           "swimmerName": "Jemison, Mae",
           "teamCode": "GG",
           "seedTime": {
-            "text": "29.18",
-            "seconds": 29.18
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "28.89",
@@ -4781,7 +4663,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "jemison|mae|7-8"
         },
         {
@@ -4789,8 +4671,8 @@
           "swimmerName": "Romanov, Catherine",
           "teamCode": "GG",
           "seedTime": {
-            "text": "26.09",
-            "seconds": 26.09
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "30.99",
@@ -4799,7 +4681,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "romanov|catherine|7-8"
         },
         {
@@ -4807,8 +4689,8 @@
           "swimmerName": "Biles, Simone",
           "teamCode": "WW",
           "seedTime": {
-            "text": "30.89",
-            "seconds": 30.89
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "32.89",
@@ -4817,7 +4699,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "biles|simone|7-8"
         },
         {
@@ -4825,8 +4707,8 @@
           "swimmerName": "Monroe, Marilyn",
           "teamCode": "WW",
           "seedTime": {
-            "text": "37.86",
-            "seconds": 37.86
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "33.34",
@@ -4843,8 +4725,8 @@
           "swimmerName": "Hamm, Mia",
           "teamCode": "WW",
           "seedTime": {
-            "text": "54.45",
-            "seconds": 54.45
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "50.94",
@@ -4876,8 +4758,8 @@
           "swimmerName": "Lawrence, Jennifer",
           "teamCode": "GG",
           "seedTime": {
-            "text": "41.32",
-            "seconds": 41.32
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "37.80",
@@ -4909,8 +4791,8 @@
           "swimmerName": "Tubman, Harriet",
           "teamCode": "GG",
           "seedTime": {
-            "text": "39.56",
-            "seconds": 39.56
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "41.75",
@@ -4926,10 +4808,7 @@
           "kind": "individual",
           "swimmerName": "Ride, Sally",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "35.00",
-            "seconds": 35
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "35.72",
             "seconds": 35.72
@@ -4945,8 +4824,8 @@
           "swimmerName": "Bronte, Emily",
           "teamCode": "GG",
           "seedTime": {
-            "text": "50.19",
-            "seconds": 50.19
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "42.35",
@@ -4963,8 +4842,8 @@
           "swimmerName": "Sotomayor, Sonia",
           "teamCode": "GG",
           "seedTime": {
-            "text": "32.46",
-            "seconds": 32.46
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "32.38",
@@ -4996,8 +4875,8 @@
           "swimmerName": "Holly, Buddy",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:13.49",
-            "seconds": 73.49
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "1:17.30",
@@ -5006,7 +4885,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "holly|buddy|13-14"
         },
         {
@@ -5014,8 +4893,8 @@
           "swimmerName": "Obama, Barack",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:17.85",
-            "seconds": 77.85
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "1:18.86",
@@ -5024,7 +4903,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "obama|barack|13-14"
         },
         {
@@ -5032,8 +4911,8 @@
           "swimmerName": "Verne, Jules",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:20.47",
-            "seconds": 80.47
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "1:19.28",
@@ -5042,7 +4921,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "verne|jules|13-14"
         },
         {
@@ -5050,8 +4929,8 @@
           "swimmerName": "Mozart, Wolfgang",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:20.03",
-            "seconds": 80.03
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "1:20.25",
@@ -5083,8 +4962,8 @@
           "swimmerName": "Verne, Jules",
           "teamCode": "GG",
           "seedTime": {
-            "text": "29.23",
-            "seconds": 29.23
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "29.89",
@@ -5093,7 +4972,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "verne|jules|13-14"
         },
         {
@@ -5101,8 +4980,8 @@
           "swimmerName": "Obama, Barack",
           "teamCode": "WW",
           "seedTime": {
-            "text": "30.42",
-            "seconds": 30.42
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "31.92",
@@ -5111,7 +4990,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "obama|barack|13-14"
         },
         {
@@ -5119,8 +4998,8 @@
           "swimmerName": "Mozart, Wolfgang",
           "teamCode": "WW",
           "seedTime": {
-            "text": "31.57",
-            "seconds": 31.57
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "32.55",
@@ -5129,7 +5008,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "mozart|wolfgang|13-14"
         },
         {
@@ -5137,8 +5016,8 @@
           "swimmerName": "Davis, Miles",
           "teamCode": "GG",
           "seedTime": {
-            "text": "35.15",
-            "seconds": 35.15
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "35.55",
@@ -5155,11 +5034,11 @@
           "swimmerName": "Twain, Mark",
           "teamCode": "WW",
           "seedTime": {
-            "text": "55.39",
-            "seconds": 55.39
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": null,
-          "status": "scratch",
+          "status": "ns",
           "disqualified": false,
           "place": null,
           "points": 0,
@@ -5170,8 +5049,8 @@
           "swimmerName": "Jobs, Steve",
           "teamCode": "GG",
           "seedTime": {
-            "text": "36.64",
-            "seconds": 36.64
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "38.68",
@@ -5188,8 +5067,8 @@
           "swimmerName": "Wilde, Oscar",
           "teamCode": "GG",
           "seedTime": {
-            "text": "43.44",
-            "seconds": 43.44
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "41.97",
@@ -5221,8 +5100,8 @@
           "swimmerName": "Holly, Buddy",
           "teamCode": "GG",
           "seedTime": {
-            "text": "37.53",
-            "seconds": 37.53
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "37.00",
@@ -5231,7 +5110,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "holly|buddy|13-14"
         },
         {
@@ -5239,8 +5118,8 @@
           "swimmerName": "Obama, Barack",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.38",
-            "seconds": 35.38
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "37.39",
@@ -5249,7 +5128,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "obama|barack|13-14"
         },
         {
@@ -5257,8 +5136,8 @@
           "swimmerName": "Jobs, Steve",
           "teamCode": "GG",
           "seedTime": {
-            "text": "54.54",
-            "seconds": 54.54
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "55.46",
@@ -5267,7 +5146,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "jobs|steve|13-14"
         },
         {
@@ -5276,7 +5155,7 @@
           "teamCode": "WW",
           "seedTime": null,
           "finalTime": null,
-          "status": "scratch",
+          "status": "ns",
           "disqualified": false,
           "place": null,
           "points": 0,
@@ -5302,8 +5181,8 @@
           "swimmerName": "Obama, Barack",
           "teamCode": "WW",
           "seedTime": {
-            "text": "33.16",
-            "seconds": 33.16
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "32.86",
@@ -5312,7 +5191,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "obama|barack|13-14"
         },
         {
@@ -5320,8 +5199,8 @@
           "swimmerName": "Holly, Buddy",
           "teamCode": "GG",
           "seedTime": {
-            "text": "33.15",
-            "seconds": 33.15
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "33.21",
@@ -5330,7 +5209,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "holly|buddy|13-14"
         },
         {
@@ -5338,8 +5217,8 @@
           "swimmerName": "Mozart, Wolfgang",
           "teamCode": "WW",
           "seedTime": {
-            "text": "37.54",
-            "seconds": 37.54
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "38.12",
@@ -5348,7 +5227,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "mozart|wolfgang|13-14"
         },
         {
@@ -5356,8 +5235,8 @@
           "swimmerName": "Davis, Miles",
           "teamCode": "GG",
           "seedTime": {
-            "text": "48.78",
-            "seconds": 48.78
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "48.68",
@@ -5389,8 +5268,8 @@
           "swimmerName": "Armstrong, Louis",
           "teamCode": "GG",
           "seedTime": {
-            "text": "29.82",
-            "seconds": 29.82
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "30.68",
@@ -5399,7 +5278,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "armstrong|louis|11-12"
         },
         {
@@ -5407,8 +5286,8 @@
           "swimmerName": "Vinci, Leonardo",
           "teamCode": "WW",
           "seedTime": {
-            "text": "32.27",
-            "seconds": 32.27
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "33.00",
@@ -5417,7 +5296,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "vinci|leonardo|11-12"
         },
         {
@@ -5425,8 +5304,8 @@
           "swimmerName": "Shakespeare, William",
           "teamCode": "WW",
           "seedTime": {
-            "text": "35.86",
-            "seconds": 35.86
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "37.10",
@@ -5435,7 +5314,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "shakespeare|william|11-12"
         },
         {
@@ -5443,8 +5322,8 @@
           "swimmerName": "Wonder, Stevie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "47.57",
-            "seconds": 47.57
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "51.15",
@@ -5476,8 +5355,8 @@
           "swimmerName": "Verne, Jules",
           "teamCode": "GG",
           "seedTime": {
-            "text": "37.15",
-            "seconds": 37.15
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "38.32",
@@ -5486,7 +5365,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "verne|jules|13-14"
         },
         {
@@ -5494,8 +5373,8 @@
           "swimmerName": "Mozart, Wolfgang",
           "teamCode": "WW",
           "seedTime": {
-            "text": "43.29",
-            "seconds": 43.29
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "44.90",
@@ -5504,7 +5383,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "mozart|wolfgang|13-14"
         },
         {
@@ -5512,8 +5391,8 @@
           "swimmerName": "Shakespeare, William",
           "teamCode": "WW",
           "seedTime": {
-            "text": "48.85",
-            "seconds": 48.85
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "51.90",
@@ -5522,7 +5401,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "shakespeare|william|11-12"
         },
         {
@@ -5530,8 +5409,8 @@
           "swimmerName": "Dylan, Bob",
           "teamCode": "GG",
           "seedTime": {
-            "text": "52.65",
-            "seconds": 52.65
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "51.73",
@@ -5549,7 +5428,7 @@
           "teamCode": "WW",
           "seedTime": null,
           "finalTime": null,
-          "status": "scratch",
+          "status": "ns",
           "disqualified": false,
           "place": null,
           "points": 0,
@@ -5605,8 +5484,8 @@
           "swimmerName": "Roberts, Julia",
           "teamCode": "GG",
           "seedTime": {
-            "text": "47.71",
-            "seconds": 47.71
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "49.42",
@@ -5615,7 +5494,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "roberts|julia|15-18"
         },
         {
@@ -5623,8 +5502,8 @@
           "swimmerName": "Swift, Taylor",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:04.15",
-            "seconds": 64.15
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "58.80",
@@ -5633,7 +5512,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "swift|taylor|15-18"
         },
         {
@@ -5648,7 +5527,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hopper|grace|13-14"
         },
         {
@@ -5686,8 +5565,8 @@
           "swimmerName": "Weaver, Sigourney",
           "teamCode": "GG",
           "seedTime": {
-            "text": "42.76",
-            "seconds": 42.76
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "42.75",
@@ -5696,7 +5575,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "weaver|sigourney|15-18"
         },
         {
@@ -5704,8 +5583,8 @@
           "swimmerName": "Carson, Rachel",
           "teamCode": "GG",
           "seedTime": {
-            "text": "46.06",
-            "seconds": 46.06
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "44.97",
@@ -5714,7 +5593,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "carson|rachel|15-18"
         },
         {
@@ -5722,8 +5601,8 @@
           "swimmerName": "Hopper, Grace",
           "teamCode": "WW",
           "seedTime": {
-            "text": "55.33",
-            "seconds": 55.33
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "55.99",
@@ -5732,7 +5611,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "hopper|grace|13-14"
         },
         {
@@ -5769,10 +5648,7 @@
           "kind": "individual",
           "swimmerName": "Potter, Beatrix",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "50.50",
-            "seconds": 50.5
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "50.91",
             "seconds": 50.91
@@ -5780,7 +5656,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "potter|beatrix|11-12"
         },
         {
@@ -5788,8 +5664,8 @@
           "swimmerName": "Ciccone, Madonna",
           "teamCode": "GG",
           "seedTime": {
-            "text": "55.07",
-            "seconds": 55.07
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "55.10",
@@ -5798,7 +5674,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "ciccone|madonna|11-12"
         },
         {
@@ -5806,8 +5682,8 @@
           "swimmerName": "Keller, Helen",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:03.85",
-            "seconds": 63.85
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "1:01.94",
@@ -5816,7 +5692,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "keller|helen|9-10"
         },
         {
@@ -5854,8 +5730,8 @@
           "swimmerName": "Roberts, Julia",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:35.66",
-            "seconds": 95.66
+            "text": "6.00",
+            "seconds": 6
           },
           "finalTime": {
             "text": "1:37.52",
@@ -5864,7 +5740,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "roberts|julia|15-18"
         },
         {
@@ -5872,8 +5748,8 @@
           "swimmerName": "Anthony, Susan",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:48.09",
-            "seconds": 108.09
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "1:46.44",
@@ -5882,27 +5758,19 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "anthony|susan|15-18"
         },
         {
           "kind": "individual",
           "swimmerName": "Williams, Serena",
           "teamCode": "WW",
-          "seedTime": {
-            "text": "1:48.60",
-            "seconds": 108.6
-          },
-          "finalTime": {
-            "text": "1:50.30",
-            "seconds": 110.3
-          },
+          "seedTime": null,
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "7T",
-          "dqReason": "Other - Misc",
           "swimmerId": "williams|serena|13-14"
         },
         {
@@ -5940,8 +5808,8 @@
           "swimmerName": "Davis, Bette",
           "teamCode": "GG",
           "seedTime": {
-            "text": "47.91",
-            "seconds": 47.91
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "45.70",
@@ -5950,7 +5818,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "davis|bette|11-12"
         },
         {
@@ -5958,8 +5826,8 @@
           "swimmerName": "Yousafzai, Malala",
           "teamCode": "GG",
           "seedTime": {
-            "text": "55.57",
-            "seconds": 55.57
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "56.19",
@@ -5968,7 +5836,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "yousafzai|malala|11-12"
         },
         {
@@ -5976,8 +5844,8 @@
           "swimmerName": "King, Billie",
           "teamCode": "WW",
           "seedTime": {
-            "text": "1:40.15",
-            "seconds": 100.15
+            "text": "5.00",
+            "seconds": 5
           },
           "finalTime": {
             "text": "1:03.23",
@@ -5986,7 +5854,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
-          "points": 0,
+          "points": 1,
           "swimmerId": "king|billie|9-10"
         },
         {
@@ -6024,8 +5892,8 @@
           "swimmerName": "Gandhi, Indira",
           "teamCode": "GG",
           "seedTime": {
-            "text": "25.98",
-            "seconds": 25.98
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "24.88",
@@ -6034,27 +5902,19 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "gandhi|indira|7-8"
         },
         {
           "kind": "individual",
           "swimmerName": "Biles, Simone",
           "teamCode": "WW",
-          "seedTime": {
-            "text": "38.20",
-            "seconds": 38.2
-          },
-          "finalTime": {
-            "text": "45.46",
-            "seconds": 45.46
-          },
+          "seedTime": null,
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "1A",
-          "dqReason": "Kick: Alternating",
           "swimmerId": "biles|simone|7-8"
         },
         {
@@ -6062,29 +5922,21 @@
           "swimmerName": "Fitzgerald, Ella",
           "teamCode": "GG",
           "seedTime": {
-            "text": "30.27",
-            "seconds": 30.27
+            "text": "7.00",
+            "seconds": 7
           },
-          "finalTime": {
-            "text": "31.01",
-            "seconds": 31.01
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "1F",
-          "dqReason": "Arms: Underwater recovery",
           "swimmerId": "fitzgerald|ella|7-8"
         },
         {
           "kind": "individual",
           "swimmerName": "Blackwell, Katherine",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "49.10",
-            "seconds": 49.1
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "38.33",
             "seconds": 38.33
@@ -6114,10 +5966,7 @@
           "kind": "relay",
           "teamCode": "WW",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:27.75",
-            "seconds": 147.75
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:18.08",
             "seconds": 138.08
@@ -6129,22 +5978,18 @@
           "legs": [
             {
               "name": "Earhart, Amelia",
-              "gender": "F",
               "legOrder": 1
             },
             {
               "name": "Monroe, Marilyn",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Hamm, Mia",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Biles, Simone",
-              "gender": "F",
               "legOrder": 4
             }
           ]
@@ -6153,10 +5998,7 @@
           "kind": "relay",
           "teamCode": "GG",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:28.40",
-            "seconds": 148.4
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:22.83",
             "seconds": 142.83
@@ -6168,22 +6010,18 @@
           "legs": [
             {
               "name": "Marley, Bob",
-              "gender": "M",
               "legOrder": 1
             },
             {
               "name": "Sotomayor, Sonia",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Tubman, Harriet",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Lawrence, Jennifer",
-              "gender": "F",
               "legOrder": 4
             }
           ]
@@ -6192,10 +6030,7 @@
           "kind": "relay",
           "teamCode": "GG",
           "relayLetter": "B",
-          "seedTime": {
-            "text": "2:30.19",
-            "seconds": 150.19
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:32.38",
             "seconds": 152.38
@@ -6207,22 +6042,18 @@
           "legs": [
             {
               "name": "Sagan, Carl",
-              "gender": "M",
               "legOrder": 1
             },
             {
               "name": "Ride, Sally",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Stone, Emma",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Bronte, Emily",
-              "gender": "F",
               "legOrder": 4
             }
           ]
@@ -6231,10 +6062,7 @@
           "kind": "relay",
           "teamCode": "WW",
           "relayLetter": "B",
-          "seedTime": {
-            "text": "3:54.33",
-            "seconds": 234.33
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "3:45.32",
             "seconds": 225.32
@@ -6246,22 +6074,18 @@
           "legs": [
             {
               "name": "Frank, Anne",
-              "gender": "F",
               "legOrder": 1
             },
             {
               "name": "Hemingway, Ernest",
-              "gender": "M",
               "legOrder": 2
             },
             {
               "name": "Hepburn, Audrey",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Darwin, Charles",
-              "gender": "M",
               "legOrder": 4
             }
           ]
@@ -6293,26 +6117,22 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 7,
           "legs": [
             {
               "name": "Phelps, Michael",
-              "gender": "M",
               "legOrder": 1
             },
             {
               "name": "Verne, Jules",
-              "gender": "M",
               "legOrder": 2
             },
             {
               "name": "Charles, Ray",
-              "gender": "M",
               "legOrder": 3
             },
             {
               "name": "Armstrong, Louis",
-              "gender": "M",
               "legOrder": 4
             }
           ]
@@ -6321,10 +6141,7 @@
           "kind": "relay",
           "teamCode": "WW",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:49.24",
-            "seconds": 169.24
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:49.45",
             "seconds": 169.45
@@ -6336,22 +6153,18 @@
           "legs": [
             {
               "name": "Douglass, Frederick",
-              "gender": "M",
               "legOrder": 1
             },
             {
               "name": "Washington, George",
-              "gender": "M",
               "legOrder": 2
             },
             {
               "name": "Mozart, Wolfgang",
-              "gender": "M",
               "legOrder": 3
             },
             {
               "name": "Mandela, Nelson",
-              "gender": "M",
               "legOrder": 4
             }
           ]
@@ -6375,10 +6188,7 @@
           "kind": "relay",
           "teamCode": "GG",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:57.11",
-            "seconds": 177.11
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:58.36",
             "seconds": 178.36
@@ -6386,26 +6196,22 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 7,
           "legs": [
             {
               "name": "Rowling, Joanne",
-              "gender": "F",
               "legOrder": 1
             },
             {
               "name": "Morrison, Toni",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Weaver, Sigourney",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Davis, Bette",
-              "gender": "F",
               "legOrder": 4
             }
           ]
@@ -6414,14 +6220,8 @@
           "kind": "relay",
           "teamCode": "WW",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "3:22.41",
-            "seconds": 202.41
-          },
-          "finalTime": {
-            "text": "3:26.88",
-            "seconds": 206.88
-          },
+          "seedTime": null,
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
@@ -6429,27 +6229,21 @@
           "legs": [
             {
               "name": "King, Billie",
-              "gender": "F",
               "legOrder": 1
             },
             {
               "name": "Kahlo, Frida",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Williams, Serena",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Curie, Marie",
-              "gender": "F",
               "legOrder": 4
             }
-          ],
-          "dqCode": "6G",
-          "dqReason": "Early take-off swimmer #3"
+          ]
         }
       ]
     },
@@ -6470,10 +6264,7 @@
           "kind": "relay",
           "teamCode": "GG",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:29.57",
-            "seconds": 149.57
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:21.63",
             "seconds": 141.63
@@ -6481,26 +6272,22 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 7,
           "legs": [
             {
               "name": "Robinson, Jackie",
-              "gender": "M",
               "legOrder": 1
             },
             {
               "name": "Holly, Buddy",
-              "gender": "M",
               "legOrder": 2
             },
             {
               "name": "Galilei, Galileo",
-              "gender": "M",
               "legOrder": 3
             },
             {
               "name": "Presley, Elvis",
-              "gender": "M",
               "legOrder": 4
             }
           ]
@@ -6509,10 +6296,7 @@
           "kind": "relay",
           "teamCode": "WW",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:20.32",
-            "seconds": 140.32
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:22.02",
             "seconds": 142.02
@@ -6524,22 +6308,18 @@
           "legs": [
             {
               "name": "Obama, Barack",
-              "gender": "M",
               "legOrder": 1
             },
             {
               "name": "Vinci, Leonardo",
-              "gender": "M",
               "legOrder": 2
             },
             {
               "name": "Lincoln, Abraham",
-              "gender": "M",
               "legOrder": 3
             },
             {
               "name": "Einstein, Albert",
-              "gender": "M",
               "legOrder": 4
             }
           ]
@@ -6563,10 +6343,7 @@
           "kind": "relay",
           "teamCode": "GG",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:34.95",
-            "seconds": 154.95
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:32.42",
             "seconds": 152.42
@@ -6574,26 +6351,22 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 7,
           "legs": [
             {
               "name": "Potter, Beatrix",
-              "gender": "F",
               "legOrder": 1
             },
             {
               "name": "Windsor, Victoria",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Bello, Michelle",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Carey, Mariah",
-              "gender": "F",
               "legOrder": 4
             }
           ]
@@ -6602,10 +6375,7 @@
           "kind": "relay",
           "teamCode": "WW",
           "relayLetter": "A",
-          "seedTime": {
-            "text": "2:30.25",
-            "seconds": 150.25
-          },
+          "seedTime": null,
           "finalTime": {
             "text": "2:34.90",
             "seconds": 154.9
@@ -6617,22 +6387,18 @@
           "legs": [
             {
               "name": "Lovelace, Ada",
-              "gender": "F",
               "legOrder": 1
             },
             {
               "name": "Dickinson, Emily",
-              "gender": "F",
               "legOrder": 2
             },
             {
               "name": "Rudolph, Wilma",
-              "gender": "F",
               "legOrder": 3
             },
             {
               "name": "Austen, Jane",
-              "gender": "F",
               "legOrder": 4
             }
           ]
@@ -6657,8 +6423,8 @@
           "swimmerName": "Phelps, Michael",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:34.92",
-            "seconds": 94.92
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "1:37.32",
@@ -6667,7 +6433,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "phelps|michael|9-10"
         },
         {
@@ -6675,8 +6441,8 @@
           "swimmerName": "Robinson, Jackie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "2:01.12",
-            "seconds": 121.12
+            "text": "2.00",
+            "seconds": 2
           },
           "finalTime": {
             "text": "2:02.15",
@@ -6685,7 +6451,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "robinson|jackie|9-10"
         }
       ]
@@ -6708,19 +6474,14 @@
           "swimmerName": "Robinson, Jackie",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:07.87",
-            "seconds": 67.87
+            "text": "7.00",
+            "seconds": 7
           },
-          "finalTime": {
-            "text": "1:08.73",
-            "seconds": 68.73
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "1E",
-          "dqReason": "Arms: Non-simultaneous",
           "swimmerId": "robinson|jackie|9-10"
         },
         {
@@ -6728,19 +6489,14 @@
           "swimmerName": "Disney, Walt",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:41.56",
-            "seconds": 101.56
+            "text": "6.00",
+            "seconds": 6
           },
-          "finalTime": {
-            "text": "1:49.61",
-            "seconds": 109.61
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "1F",
-          "dqReason": "Arms: Underwater recovery",
           "swimmerId": "disney|walt|9-10"
         }
       ]
@@ -6763,8 +6519,8 @@
           "swimmerName": "Rachmaninoff, Sergei",
           "teamCode": "GG",
           "seedTime": {
-            "text": "22.59",
-            "seconds": 22.59
+            "text": "9.00",
+            "seconds": 9
           },
           "finalTime": {
             "text": "24.44",
@@ -6773,7 +6529,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "rachmaninoff|sergei|7-8"
         },
         {
@@ -6781,8 +6537,8 @@
           "swimmerName": "Berry, Chuck",
           "teamCode": "GG",
           "seedTime": {
-            "text": "30.07",
-            "seconds": 30.07
+            "text": "7.00",
+            "seconds": 7
           },
           "finalTime": {
             "text": "30.04",
@@ -6791,7 +6547,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "berry|chuck|7-8"
         },
         {
@@ -6799,8 +6555,8 @@
           "swimmerName": "Sagan, Carl",
           "teamCode": "GG",
           "seedTime": {
-            "text": "40.03",
-            "seconds": 40.03
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "38.73",
@@ -6817,8 +6573,8 @@
           "swimmerName": "Kafka, Franz",
           "teamCode": "GG",
           "seedTime": {
-            "text": "32.11",
-            "seconds": 32.11
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "34.07",
@@ -6850,8 +6606,8 @@
           "swimmerName": "Anthony, Susan",
           "teamCode": "GG",
           "seedTime": {
-            "text": "44.68",
-            "seconds": 44.68
+            "text": "8.00",
+            "seconds": 8
           },
           "finalTime": {
             "text": "45.81",
@@ -6860,7 +6616,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "anthony|susan|15-18"
         },
         {
@@ -6868,8 +6624,8 @@
           "swimmerName": "Fenty, Rihanna",
           "teamCode": "GG",
           "seedTime": {
-            "text": "1:01.94",
-            "seconds": 61.94
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "1:02.62",
@@ -6878,7 +6634,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "fenty|rihanna|15-18"
         },
         {
@@ -6916,39 +6672,26 @@
           "swimmerName": "Kafka, Franz",
           "teamCode": "GG",
           "seedTime": {
-            "text": "46.86",
-            "seconds": 46.86
+            "text": "6.00",
+            "seconds": 6
           },
-          "finalTime": {
-            "text": "47.43",
-            "seconds": 47.43
-          },
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3A",
-          "dqReason": "Kick: Alternating",
           "swimmerId": "kafka|franz|7-8"
         },
         {
           "kind": "individual",
           "swimmerName": "Rachmaninoff, Sergei",
           "teamCode": "GG",
-          "seedTime": {
-            "text": "36.50",
-            "seconds": 36.5
-          },
-          "finalTime": {
-            "text": "43.05",
-            "seconds": 43.05
-          },
+          "seedTime": null,
+          "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
           "points": 0,
-          "dqCode": "3B",
-          "dqReason": "Kick: Butterfly",
           "swimmerId": "rachmaninoff|sergei|7-8"
         }
       ]
@@ -6971,8 +6714,8 @@
           "swimmerName": "Rachmaninoff, Sergei",
           "teamCode": "GG",
           "seedTime": {
-            "text": "29.53",
-            "seconds": 29.53
+            "text": "3.00",
+            "seconds": 3
           },
           "finalTime": {
             "text": "33.30",
@@ -6981,7 +6724,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "rachmaninoff|sergei|7-8"
         },
         {
@@ -6989,8 +6732,8 @@
           "swimmerName": "Kafka, Franz",
           "teamCode": "GG",
           "seedTime": {
-            "text": "58.21",
-            "seconds": 58.21
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "51.71",
@@ -6999,7 +6742,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "kafka|franz|7-8"
         }
       ]
@@ -7022,8 +6765,8 @@
           "swimmerName": "Berry, Chuck",
           "teamCode": "GG",
           "seedTime": {
-            "text": "27.94",
-            "seconds": 27.94
+            "text": "4.00",
+            "seconds": 4
           },
           "finalTime": {
             "text": "29.71",
@@ -7032,7 +6775,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
-          "points": 0,
+          "points": 5,
           "swimmerId": "berry|chuck|7-8"
         },
         {
@@ -7040,8 +6783,8 @@
           "swimmerName": "Marley, Bob",
           "teamCode": "GG",
           "seedTime": {
-            "text": "58.31",
-            "seconds": 58.31
+            "text": "1.00",
+            "seconds": 1
           },
           "finalTime": {
             "text": "1:01.20",
@@ -7050,7 +6793,7 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
-          "points": 0,
+          "points": 3,
           "swimmerId": "marley|bob|7-8"
         }
       ]
