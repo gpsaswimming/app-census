@@ -1,12 +1,26 @@
 # Local development stack for app-census.
 #
+#   proxy     — Caddy: single entry point (http://localhost:8080) routing
+#               /api → ingest API, /ingest → ingest form, / → dashboard
 #   db        — Postgres (the store; source of truth)
 #   ingest    — FastAPI write side (parse → preview → confirm → commit)
 #   dashboard — Streamlit read side (analytics)
 #
-# Ports bind to 127.0.0.1 only. Auth (Pangolin) sits in front in production;
-# it is not modeled here.
+# Only the proxy (and db, for host-run reference-data importers) publish ports;
+# ingest + dashboard are reached through the proxy on the internal network — one
+# origin, mirroring how prod sits behind Pangolin. All binds are 127.0.0.1 only.
 services:
+  proxy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./proxy/Caddyfile:/etc/caddy/Caddyfile:ro
+    depends_on:
+      - ingest
+      - dashboard
+
   db:
     image: postgres:16
     environment:
@@ -14,6 +28,7 @@ services:
       POSTGRES_PASSWORD: census
       POSTGRES_DB: census
     ports:
+      # Published so host-run reference-data importers (scripts/) can reach it.
       - "127.0.0.1:5432:5432"
     volumes:
       - census-db:/var/lib/postgresql/data
@@ -29,8 +44,8 @@ services:
       dockerfile: ingest/Dockerfile
     environment:
       DATABASE_URL: postgresql+psycopg://census:census@db:5432/census
-    ports:
-      - "127.0.0.1:8000:8000"
+    expose:
+      - "8000"
     depends_on:
       db:
         condition: service_healthy
@@ -41,8 +56,8 @@ services:
       dockerfile: dashboard/Dockerfile
     environment:
       DATABASE_URL: postgresql+psycopg://census:census@db:5432/census
-    ports:
-      - "127.0.0.1:8501:8501"
+    expose:
+      - "8501"
     depends_on:
       db:
         condition: service_healthy

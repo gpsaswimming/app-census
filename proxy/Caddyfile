@@ -1,0 +1,23 @@
+# Single-host reverse proxy for app-census. Presents one origin with three
+# path prefixes fanning out to the two backend services:
+#
+#   /api/*    → ingest API      (n8n / scripts / the upload form's fetch calls)
+#   /ingest*  → ingest form UI   (+ /ingest/app.js)
+#   /         → Streamlit dashboard (everything else, incl. /_stcore, /static)
+#
+# This mirrors how production sits behind Pangolin (one hostname, routes to the
+# read + write backends). Plain HTTP only (":80" disables Caddy auto-HTTPS);
+# TLS/auth are the gateway's job, not this dev proxy's.
+:80 {
+	handle /api/* {
+		reverse_proxy ingest:8000
+	}
+	handle /ingest* {
+		reverse_proxy ingest:8000
+	}
+	# Catch-all: the Streamlit dashboard, including its websocket (/_stcore/stream)
+	# and static assets. Caddy upgrades websockets automatically.
+	handle {
+		reverse_proxy dashboard:8501
+	}
+}

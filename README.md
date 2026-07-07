@@ -85,9 +85,27 @@ pytest
 
 # Full stack (vendor the parser into the ingest image first)
 scripts/vendor-swimparse.sh
-docker compose up --build          # db:5432, ingest:8000, dashboard:8501
-curl localhost:8000/health
-curl -F file=@meet.sd3 localhost:8000/preview
+docker compose up --build
+# ↑ one origin via the Caddy proxy at http://localhost:8080 :
+#     /          → dashboard (Streamlit)
+#     /ingest    → upload form
+#     /api/*     → ingest API (n8n / scripts)
+#   The ingest container migrates the schema to head on startup (idempotent) —
+#   on a fresh volume it creates the whole schema automatically, nothing to run.
+
+# Seed the reference data the dashboard reads (run once, from the host venv;
+# DATABASE_URL points at the compose db). Not raw-meet data — safe, no PII.
+export DATABASE_URL=postgresql+psycopg://census:census@localhost:5432/census
+python scripts/import_city_meet_standards.py     # City Meet qualifying times
+python scripts/import_divisions.py               # Red/White/Blue by season
+
+# Ingest a meet (preview is a dry run; commit upserts). Accepts .sd3/.hy3/.zip.
+# meet_type feeds the analytics filters (dual / invitational / city_meet / exhibition).
+curl -F file=@meet.zip localhost:8080/api/preview
+curl -F file=@meet.zip -F meet_type=dual localhost:8080/api/commit
+#   …or use the upload form at http://localhost:8080/ingest
+
+# Dashboard: http://localhost:8080/
 ```
 
 ## Privacy

@@ -9,6 +9,8 @@ they will build on or replace.
 
 from __future__ import annotations
 
+from functools import lru_cache
+
 from sqlalchemy.orm import Session
 
 from db.models import (
@@ -21,6 +23,22 @@ from db.models import (
     Result,
     Team,
 )
+
+
+@lru_cache(maxsize=None)
+def _age_group_bounds() -> dict[str, tuple[int | None, int | None]]:
+    """Map each age-group label to its ``(lower, upper)`` integer bounds.
+
+    Built from the league profile so the bounds stay in lock-step with the
+    labels swimparse emits (both derive from ``leagues/gpsa.yaml``). Used to give
+    each stored athlete the integer band that replaces the old exact league_age.
+    """
+    from leagues import load_profile
+
+    bounds: dict[str, tuple[int | None, int | None]] = {}
+    for band in load_profile().get("ageGroups", []):
+        bounds[band["label"]] = (band.get("min", 0), band.get("max"))
+    return bounds
 
 
 def name_key(last: str | None, first: str | None) -> str:
@@ -57,17 +75,38 @@ def get_or_create_athlete(session: Session, *, season, name_key, gender, age_gro
         .one_or_none()
     )
     if a is None:
-        a = Athlete(season=season, name_key=name_key, gender=gender, age_group=age_group, team=team)
+        lower, upper = _age_group_bounds().get(age_group, (None, None))
+        a = Athlete(
+            season=season,
+            name_key=name_key,
+            gender=gender,
+            age_group=age_group,
+            age_group_lower=lower,
+            age_group_upper=upper,
+            team=team,
+        )
         session.add(a)
         session.flush()
     return a
 
 
-def insert_meet(session: Session, meet: dict, *, imported_by: str | None = None) -> Meet:
+def insert_meet(
+    session: Session,
+    meet: dict,
+    *,
+    imported_by: str | None = None,
+    meet_type: str | None = None,
+) -> Meet:
     """Insert a DOB-free NormalizedMeet dict and return the persisted Meet.
 
     Raises if the meet lacks an ``ageProfile`` stamp — an un-league'd parse still
     carries DOB and must never reach the store.
+
+    ``meet_type`` (dual/invitational/city_meet/exhibition) is supplied by the
+    caller: swimparse's NormalizedMeet has no reliable type signal, and the
+    folder layout the old census inferred it from is gone at the API boundary, so
+    the ingest form / n8n / backfill passes it in. The analytics tabs filter on
+    it; when unknown it stays NULL.
     """
     if not meet.get("ageProfile"):
         raise ValueError(
@@ -97,6 +136,7 @@ def insert_meet(session: Session, meet: dict, *, imported_by: str | None = None)
         name=info.get("name"),
         date=info.get("startDate"),
         season=season,
+        meet_type=meet_type,
         course=info.get("course"),
         fmt=meet.get("format"),
         age_profile=meet.get("ageProfile"),

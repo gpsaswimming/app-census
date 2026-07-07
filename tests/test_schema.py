@@ -74,6 +74,23 @@ def test_athlete_identity_is_dob_free_and_season_scoped(session, meet_json):
     assert not hasattr(a, "birth_date")
 
 
+def test_athlete_age_group_bounds_are_populated(session, meet_json):
+    """The DOB-free integer band (replacing the old league_age) is filled from
+    the league profile for every stored athlete, so qualification queries can
+    range over it."""
+    insert_meet(session, meet_json)
+    session.commit()
+
+    labelled = session.query(Athlete).filter(Athlete.age_group.isnot(None)).all()
+    assert labelled  # fixture has age-grouped swimmers
+    for a in labelled:
+        assert a.age_group_lower is not None and a.age_group_upper is not None
+        assert a.age_group_lower <= a.age_group_upper
+    # "15-18" is the fixture's band → (15, 18).
+    fifteen = next(a for a in labelled if a.age_group == "15-18")
+    assert (fifteen.age_group_lower, fifteen.age_group_upper) == (15, 18)
+
+
 def test_meet_key_is_idempotency_key(session, meet_json):
     insert_meet(session, meet_json)
     session.commit()

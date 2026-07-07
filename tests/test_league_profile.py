@@ -17,7 +17,7 @@ from pathlib import Path
 
 import pytest
 
-from leagues import load_profile
+from leagues import canonical_team_code, load_profile, team_alias_map
 
 # app-census and app-tools sit side by side under the GPSA workspace.
 _SWIMPARSE_JSON = (
@@ -54,3 +54,32 @@ def test_gpsa_profile_matches_swimparse_reference():
         "leagues/gpsa.yaml has drifted from swimparse's gpsa.json — "
         "edit both together"
     )
+
+
+def test_team_registry_shape():
+    """The team registry lists all 18 current teams (+ historical) with unique
+    canonical codes; entries carry only the expected keys."""
+    teams = load_profile("gpsa")["teams"]
+    codes = [t["code"] for t in teams]
+    assert len(codes) == len(set(codes)), "duplicate canonical team codes"
+    assert len(codes) >= 18  # 18 current teams, plus any historical (e.g. NHM)
+    for t in teams:
+        assert t["code"]
+        assert set(t) <= {"code", "name", "aliases"}
+
+
+def test_canonical_team_code_resolves_aliases():
+    """Drifting/legacy codes resolve to the canonical code the ingest stores;
+    unknown codes pass through unchanged."""
+    assert canonical_team_code("GWRA") == "WYTH"    # legacy code → re-branded WYTH
+    assert canonical_team_code("wythe") == "WYTH"   # case-insensitive alias
+    assert canonical_team_code("WYTH") == "WYTH"    # canonical (Wythe re-brand)
+    assert canonical_team_code("MBKM") == "MBKMT"   # truncation
+    assert canonical_team_code("WPPI") == "WPPIR"
+    assert canonical_team_code("GG") == "GG"        # already canonical
+    assert canonical_team_code("ZZZ") == "ZZZ"      # unknown → unchanged
+
+    # Every alias in the map points at a real canonical code.
+    amap = team_alias_map()
+    canon = {t["code"] for t in load_profile("gpsa")["teams"]}
+    assert set(amap.values()) <= canon
