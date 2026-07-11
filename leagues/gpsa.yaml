@@ -39,3 +39,31 @@ scoring:
   individualPlaces: [5, 3, 1] # 1st / 2nd / 3rd; 4th+ = 0
   relayPlaces: [7]            # winner only
   entriesScoredPerTeam: 2     # league cap (source files already reflect it)
+
+# Canonical team roster + alias map. SDIF/HY3 team codes drift across seasons
+# (a re-brand like Wythe's legacy GWRA/WYTHE → its current WYTH, or truncations
+# like MBKM→MBKMT); swimparse's applyLeague collapses drifting/legacy codes onto the
+# one canonical league code so a team's multi-season history doesn't fragment.
+# `name` is set only where a re-brand needs it (otherwise the file's name is kept).
+# Unlisted codes pass through untouched. Mirrors swimparse's gpsa.json exactly —
+# edit both together (tests/test_league_profile.py guards the equality).
+teams:
+  - { code: BLMAR, aliases: [BLMA] }              # Beaconsdale
+  - { code: COL }                                 # Colony
+  - { code: CV }                                  # Coventry
+  - { code: EL }                                  # Elizabeth Lake
+  - { code: GG }                                  # Glendale
+  - { code: HW }                                  # Hidenwood
+  - { code: JRCC }                                # James River
+  - { code: KCD }                                 # Kiln Creek
+  - { code: MBKMT, aliases: [MBKM] }              # Marlbank
+  - { code: NHM }                                 # Northampton (historical)
+  - { code: POQ }                                 # Poquoson
+  - { code: RMMR }                                # Running Man
+  - { code: RRST }                                # Riverdale
+  - { code: VG }                                  # Village Green
+  - { code: WO }                                  # Willow Oaks
+  - { code: WPPIR, aliases: [WPPI] }              # Windy Point
+  - { code: WW }                                  # Wendwood
+  - { code: WYCC }                                # Warwick Yacht
+  - { code: WYTH, name: Wythe Wahoos, aliases: [GWRA, WYTHE] }  # Wythe (re-brand; was GWRA)

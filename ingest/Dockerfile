@@ -28,4 +28,5 @@ EXPOSE 8000
 RUN useradd --uid 10001 --no-create-home appuser
 USER 10001
 
-CMD ["uvicorn", "ingest.app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Migrate to head on startup, then serve (see ingest/entrypoint.sh).
+CMD ["sh", "ingest/entrypoint.sh"]

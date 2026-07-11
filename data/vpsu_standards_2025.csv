@@ -1,0 +1,53 @@
+league,gender,age_group,age_group_lower,age_group_upper,distance,stroke,standard_seconds,standard_formatted
+VPSU,M,6 & Under,0,6,25,Freestyle,36.00,36.00
+VPSU,F,6 & Under,0,6,25,Freestyle,36.00,36.00
+VPSU,M,6 & Under,0,6,25,Backstroke,42.00,42.00
+VPSU,F,6 & Under,0,6,25,Backstroke,41.00,41.00
+VPSU,M,7-8,7,8,25,Freestyle,22.00,22.00
+VPSU,F,7-8,7,8,25,Freestyle,23.00,23.00
+VPSU,M,7-8,7,8,25,Backstroke,29.00,29.00
+VPSU,F,7-8,7,8,25,Backstroke,29.00,29.00
+VPSU,M,8 & Under,0,8,25,Breaststroke,35.00,35.00
+VPSU,F,8 & Under,0,8,25,Breaststroke,34.00,34.00
+VPSU,M,8 & Under,0,8,25,Butterfly,37.00,37.00
+VPSU,F,8 & Under,0,8,25,Butterfly,37.00,37.00
+VPSU,M,10 & Under,0,10,100,IM,118.00,1:58.00
+VPSU,F,10 & Under,0,10,100,IM,115.00,1:55.00
+VPSU,M,9-10,9,10,50,Freestyle,43.00,43.00
+VPSU,F,9-10,9,10,50,Freestyle,43.00,43.00
+VPSU,M,9-10,9,10,50,Breaststroke,65.00,1:05.00
+VPSU,F,9-10,9,10,50,Breaststroke,60.00,1:00.00
+VPSU,M,9-10,9,10,50,Backstroke,57.00,57.00
+VPSU,F,9-10,9,10,50,Backstroke,53.00,53.00
+VPSU,M,9-10,9,10,50,Butterfly,60.00,1:00.00
+VPSU,F,9-10,9,10,50,Butterfly,58.00,58.00
+VPSU,M,11-12,11,12,100,IM,100.00,1:40.00
+VPSU,F,11-12,11,12,100,IM,100.00,1:40.00
+VPSU,M,11-12,11,12,50,Freestyle,37.00,37.00
+VPSU,F,11-12,11,12,50,Freestyle,38.00,38.00
+VPSU,M,11-12,11,12,50,Breaststroke,52.00,52.00
+VPSU,F,11-12,11,12,50,Breaststroke,52.00,52.00
+VPSU,M,11-12,11,12,50,Backstroke,48.00,48.00
+VPSU,F,11-12,11,12,50,Backstroke,48.00,48.00
+VPSU,M,11-12,11,12,50,Butterfly,48.00,48.00
+VPSU,F,11-12,11,12,50,Butterfly,47.00,47.00
+VPSU,M,13-14,13,14,100,IM,90.00,1:30.00
+VPSU,F,13-14,13,14,100,IM,90.00,1:30.00
+VPSU,M,13-14,13,14,50,Freestyle,33.00,33.00
+VPSU,F,13-14,13,14,50,Freestyle,35.00,35.00
+VPSU,M,13-14,13,14,50,Breaststroke,48.00,48.00
+VPSU,F,13-14,13,14,50,Breaststroke,48.00,48.00
+VPSU,M,13-14,13,14,50,Backstroke,45.00,45.00
+VPSU,F,13-14,13,14,50,Backstroke,43.00,43.00
+VPSU,M,13-14,13,14,50,Butterfly,42.00,42.00
+VPSU,F,13-14,13,14,50,Butterfly,40.00,40.00
+VPSU,M,15-18,15,18,100,IM,80.00,1:20.00
+VPSU,F,15-18,15,18,100,IM,86.00,1:26.00
+VPSU,M,15-18,15,18,50,Freestyle,30.00,30.00
+VPSU,F,15-18,15,18,50,Freestyle,33.00,33.00
+VPSU,M,15-18,15,18,50,Breaststroke,42.00,42.00
+VPSU,F,15-18,15,18,50,Breaststroke,47.00,47.00
+VPSU,M,15-18,15,18,50,Backstroke,39.00,39.00
+VPSU,F,15-18,15,18,50,Backstroke,43.00,43.00
+VPSU,M,15-18,15,18,50,Butterfly,34.00,34.00
+VPSU,F,15-18,15,18,50,Butterfly,38.00,38.00

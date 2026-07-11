@@ -6,6 +6,9 @@ the DB dependency overridden. Needs Node + the sibling swimparse checkout.
 
 from __future__ import annotations
 
+import io
+import zipfile
+
 import pytest
 from conftest import make_sqlite_engine, needs_swimparse
 from fastapi.testclient import TestClient
@@ -43,7 +46,7 @@ def _upload(raw: bytes):
 
 def test_preview_summarizes_without_writing(client_and_engine, raw_sd3):
     client, engine = client_and_engine
-    r = client.post("/preview", files=_upload(raw_sd3))
+    r = client.post("/api/preview", files=_upload(raw_sd3))
     assert r.status_code == 200, r.text
     body = r.json()
     assert body["season"] == 2026
@@ -58,7 +61,7 @@ def test_preview_summarizes_without_writing(client_and_engine, raw_sd3):
 def test_commit_is_idempotent(client_and_engine, raw_sd3):
     client, engine = client_and_engine
 
-    r1 = client.post("/commit", files=_upload(raw_sd3), data={"imported_by": "tester"})
+    r1 = client.post("/api/commit", files=_upload(raw_sd3), data={"imported_by": "tester"})
     assert r1.status_code == 200, r1.text
     assert r1.json()["status"] == "created"
 
@@ -68,7 +71,7 @@ def test_commit_is_idempotent(client_and_engine, raw_sd3):
         assert first_results > 0
 
     # Re-upload the same meet → update, not double-count.
-    r2 = client.post("/commit", files=_upload(raw_sd3), data={"imported_by": "tester"})
+    r2 = client.post("/api/commit", files=_upload(raw_sd3), data={"imported_by": "tester"})
     assert r2.status_code == 200, r2.text
     assert r2.json()["status"] == "updated"
 
@@ -81,7 +84,32 @@ def test_commit_is_idempotent(client_and_engine, raw_sd3):
 
 def test_garbage_file_is_rejected(client_and_engine):
     client, engine = client_and_engine
-    r = client.post("/commit", files={"file": ("junk.sd3", b"this is not a meet", "text/plain")})
+    r = client.post("/api/commit", files={"file": ("junk.sd3", b"this is not a meet", "text/plain")})
     assert r.status_code == 422
     with Session(engine) as s:
         assert s.query(Meet).count() == 0
+
+
+def test_commit_accepts_a_zipped_export(client_and_engine, raw_sd3):
+    """Meet software exports a .zip — the service unwraps it and ingests the
+    inner .sd3 end-to-end, same as an uncompressed upload."""
+    client, engine = client_and_engine
+
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w") as z:
+        z.writestr("Meet Results.sd3", raw_sd3)
+    zipped = buf.getvalue()
+
+    r = client.post(
+        "/api/commit",
+        files={"file": ("2026-06-29_GG_v_WW.zip", zipped, "application/zip")},
+        data={"meet_type": "dual"},
+    )
+    assert r.status_code == 200, r.text
+    body = r.json()
+    assert body["status"] == "created"
+    assert body["teamScores"] == {"GG": 320, "WW": 146}
+
+    with Session(engine) as s:
+        assert s.query(Meet).count() == 1
+        assert s.query(Result).count() > 0

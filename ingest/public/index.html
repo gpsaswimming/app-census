@@ -1,74 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GPSA Census — Ingest</title>
-  <link rel="stylesheet" href="https://css.gpsaswimming.org/gpsa-tools-common.css">
-  <style>
-    body { max-width: 46rem; margin: 2rem auto; padding: 0 1rem; }
-    .card { border: 1px solid #ccd; border-radius: 8px; padding: 1.25rem; margin-top: 1rem; }
-    label { font-weight: 600; display: block; margin-bottom: .35rem; }
-    input[type=text] { width: 100%; padding: .5rem; box-sizing: border-box; }
-    .row { display: flex; gap: .75rem; margin-top: 1rem; flex-wrap: wrap; }
-    button { background: #002366; color: #fff; border: 0; border-radius: 6px; padding: .6rem 1.1rem; cursor: pointer; }
-    button.secondary { background: #d9242b; }
-    button:disabled { opacity: .5; cursor: not-allowed; }
-    pre { background: #f5f6fa; border-radius: 6px; padding: 1rem; overflow: auto; }
-    .muted { color: #667; font-size: .9rem; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPSA Census — Result Ingest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.gpsaswimming.org/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://assets.gpsaswimming.org/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://assets.gpsaswimming.org/img/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="https://assets.gpsaswimming.org/img/favicons/safari-pinned-tab.svg" color="#002366">
+    <meta name="msapplication-TileColor" content="#002366">
+    <meta name="theme-color" content="#002366">
+    <!-- GPSA Common Styles -->
+    <link rel="stylesheet" href="https://css.gpsaswimming.org/gpsa-tools-common.css">
 </head>
 <body>
-  <h1>GPSA Census — Result Ingest</h1>
-  <p class="muted">Upload a dual-meet <code>.sd3</code> or <code>.hy3</code>. Preview first,
-    then commit. Birthdates are stripped at parse time — nothing DOB-bearing is stored.</p>
+    <main class="container mx-auto p-4 sm:p-6 lg:p-8">
+        <div class="max-w-2xl mx-auto">
+            <header class="gpsa-header p-4 shadow-md flex items-center justify-center mb-6 rounded-lg">
+                <img src="https://assets.gpsaswimming.org/img/gpsa_logo.png" alt="GPSA Logo" class="h-16 w-16 md:h-20 md:w-20 mr-4 rounded-full" onerror="this.onerror=null; this.src='https://placehold.co/100x100/002366/FFFFFF?text=GPSA';">
+                <div>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold">GPSA Census — Result Ingest</h1>
+                    <p class="gpsa-header-subtitle">Import a meet into the census. Preview first, then commit.</p>
+                </div>
+            </header>
 
-  <div class="card">
-    <label for="file">Result file (.sd3 / .hy3)</label>
-    <input type="file" id="file" accept=".sd3,.hy3">
-    <label for="who" style="margin-top:1rem">Your name / source (optional)</label>
-    <input type="text" id="who" placeholder="e.g. jane@gpsaswimming.org">
-    <div class="row">
-      <button id="previewBtn" disabled>Preview</button>
-      <button id="commitBtn" class="secondary" disabled>Commit</button>
-    </div>
-  </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+                <p class="text-gray-600 mb-6">Upload an SDIF (<span class="font-semibold">.sd3</span>) or Hy-Tek (<span class="font-semibold">.hy3</span>) results file, or the <span class="font-semibold">.zip</span> your meet software exported (we'll pull the results file out of it). <span class="font-semibold">Preview</span> runs a dry parse and shows a summary; <span class="font-semibold">Commit</span> writes it to the census. Birthdates are stripped at parse time — nothing DOB-bearing is stored.</p>
 
-  <div id="out" class="card" hidden>
-    <strong id="outTitle"></strong>
-    <pre id="outBody"></pre>
-  </div>
+                <form id="ingest-form" novalidate>
+                    <!-- File dropzone -->
+                    <div class="mb-6">
+                        <span class="block text-sm font-semibold text-gray-700 mb-2">Results file <span class="text-red-600">*</span></span>
+                        <label id="file-dropzone" for="file-upload" class="file-upload-label flex flex-col items-center justify-center w-full h-44 border-2 border-gray-300 border-dashed rounded-lg bg-gray-50 hover:bg-gray-100 cursor-pointer transition-colors">
+                            <div class="flex flex-col items-center justify-center pt-5 pb-6 text-center px-4">
+                                <!-- Empty-state icon (document) -->
+                                <svg id="file-icon-empty" class="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                <!-- Selected-state icon (check circle) -->
+                                <svg id="file-icon-selected" class="hidden w-10 h-10 mb-3 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <p id="file-prompt" class="mb-1 text-sm text-gray-500"><span class="font-semibold">Click to choose a file</span> or drag it here</p>
+                                <p id="file-name" class="text-xs text-gray-500">Accepted: .sd3, .hy3, or .zip</p>
+                            </div>
+                            <input id="file-upload" name="file" type="file" accept=".sd3,.hy3,.zip" class="hidden" required />
+                        </label>
+                        <p id="file-error" class="hidden mt-2 text-sm text-red-600"></p>
+                    </div>
 
-  <script>
-    const $ = (id) => document.getElementById(id);
-    const fileEl = $('file'), previewBtn = $('previewBtn'), commitBtn = $('commitBtn');
-    fileEl.addEventListener('change', () => {
-      const has = fileEl.files.length > 0;
-      previewBtn.disabled = commitBtn.disabled = !has;
-    });
+                    <!-- Meet type + source -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <label for="meet-type" class="block text-sm font-semibold text-gray-700 mb-2">Meet type</label>
+                            <select id="meet-type" name="meet_type"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                <option value="dual">Dual meet</option>
+                                <option value="invitational">Invitational (SSI)</option>
+                                <option value="city_meet">City Meet</option>
+                                <option value="exhibition">Exhibition / time trial</option>
+                                <option value="">— unknown —</option>
+                            </select>
+                            <p class="mt-1 text-xs text-gray-400">Feeds the analytics filters.</p>
+                        </div>
+                        <div>
+                            <label for="who" class="block text-sm font-semibold text-gray-700 mb-2">Your name / source <span class="text-gray-400 font-normal">(optional)</span></label>
+                            <input id="who" name="imported_by" type="text" autocomplete="email"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                   placeholder="you@gpsaswimming.org">
+                            <p class="mt-1 text-xs text-gray-400">Recorded in the audit log.</p>
+                        </div>
+                    </div>
 
-    async function send(path) {
-      const f = fileEl.files[0];
-      if (!f) return;
-      const fd = new FormData();
-      fd.append('file', f);
-      if ($('who').value) fd.append('imported_by', $('who').value);
-      previewBtn.disabled = commitBtn.disabled = true;
-      const title = $('outTitle'), body = $('outBody'), out = $('out');
-      out.hidden = false; title.textContent = 'Working…'; body.textContent = '';
-      try {
-        const res = await fetch(path, { method: 'POST', body: fd });
-        const data = await res.json();
-        title.textContent = res.ok ? `${path} — OK` : `${path} — ${res.status} ${res.statusText}`;
-        body.textContent = JSON.stringify(res.ok ? data : (data.detail ?? data), null, 2);
-      } catch (e) {
-        title.textContent = 'Request failed'; body.textContent = String(e);
-      } finally {
-        previewBtn.disabled = commitBtn.disabled = false;
-      }
-    }
-    previewBtn.addEventListener('click', () => send('/preview'));
-    commitBtn.addEventListener('click', () => send('/commit'));
-  </script>
+                    <!-- Actions -->
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <button id="preview-button" type="button"
+                                class="w-full sm:w-1/2 font-bold py-3 px-4 rounded-lg border-2 border-[#002366] text-[#002366] bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+                            Preview
+                        </button>
+                        <button id="commit-button" type="submit"
+                                class="w-full sm:w-1/2 btn-primary font-bold py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+                            Commit
+                        </button>
+                    </div>
+                    <p id="commit-hint" class="mt-2 text-xs text-gray-400">Preview a file first — Commit unlocks once the dry run succeeds.</p>
+                </form>
+
+                <!-- Result / summary -->
+                <div id="result" class="hidden mt-6 p-4 rounded-lg text-sm border" role="status" aria-live="polite"></div>
+            </div>
+
+            <p class="text-center text-xs text-gray-400">Greater Peninsula Swimming Association &middot; Census result ingest &middot; DOB-free</p>
+        </div>
+    </main>
+
+    <script src="/ingest/app.js"></script>
 </body>
 </html>

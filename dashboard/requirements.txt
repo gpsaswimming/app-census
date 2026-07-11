@@ -1,3 +1,9 @@
-# Read-only Streamlit dashboard. Phase 4 adds the query/plot deps
-# (sqlalchemy, psycopg, pandas, plotly). Kept minimal for the Phase 0 shell.
+# Read-only Streamlit dashboard: reads the DOB-free Postgres store and renders
+# the ported gpsa-census analytics.
 streamlit==1.41.1
+sqlalchemy==2.0.51
+psycopg[binary]>=3.2
+pandas==2.2.3
+numpy==2.2.1
+plotly==5.24.1
+pyyaml==6.0.2

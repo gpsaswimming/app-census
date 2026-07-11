@@ -3,6 +3,7 @@ db.models so `alembic revision --autogenerate` works for future changes."""
 
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -12,8 +13,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from alembic import context
 from sqlalchemy import engine_from_config, pool
 
-from db.config import DATABASE_URL
+from db.config import DATABASE_URL as _DEFAULT_URL
 from db.models import Base
+
+# Read the URL from the environment at RUN time, not from the cached
+# db.config constant. db.config evaluates DATABASE_URL once at import, so if
+# something imported it earlier (e.g. a test harness) the constant is frozen —
+# and alembic would then migrate the wrong database. Resolving it here per
+# invocation keeps `alembic upgrade` and the tests pointed where the caller means.
+DATABASE_URL = os.getenv("DATABASE_URL", _DEFAULT_URL)
 
 config = context.config
 config.set_main_option("sqlalchemy.url", DATABASE_URL)

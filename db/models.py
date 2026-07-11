@@ -118,6 +118,13 @@ class Athlete(Base):
     full_name: Mapped[str | None] = mapped_column(String(200))
     gender: Mapped[str | None] = mapped_column(String(1))
     age_group: Mapped[str | None] = mapped_column(String(16))  # label, e.g. "9-10"
+    # The label's integer bounds (e.g. "9-10" → 9, 10). These are the DOB-free
+    # replacement for the old `Result.league_age`: they let a qualification query
+    # match a swimmer against a standard by age-band containment, without ever
+    # storing an exact age. Same information as the label, in a form SQL can range
+    # over. See dashboard analytics.
+    age_group_lower: Mapped[int | None] = mapped_column(Integer)
+    age_group_upper: Mapped[int | None] = mapped_column(Integer)
     team_id: Mapped[int] = mapped_column(ForeignKey("teams.id"), index=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_utcnow)
 
@@ -229,3 +236,83 @@ class ImportLog(Base):
     team_scores: Mapped[dict | None] = mapped_column(JSON)
     imported_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_utcnow)
     imported_by: Mapped[str | None] = mapped_column(String(120))
+
+
+# ---------------------------------------------------------------------------
+# Reference / configuration tables (analytics inputs, not from NormalizedMeet)
+#
+# These are seeded from version-controlled CSVs by scripts/, not by the ingest
+# pipeline. They were deferred from Phase 2 and land in Phase 4 alongside the
+# dashboard that reads them. All carry no PII.
+# ---------------------------------------------------------------------------
+
+
+class CityMeetStandard(Base):
+    """City Meet qualifying time, scoped to an effective-season range.
+
+    A standard set is adopted for a span of seasons (e.g. 2026-2027 covers both
+    2026 and 2027). A swim is judged against the set whose
+    ``[season_start, season_end]`` range covers the swim's season, so historical
+    qualification analysis uses the standards actually in effect that year.
+    Seeded per-era from ``data/standards/START-END.csv`` by
+    ``scripts/import_city_meet_standards.py``.
+    """
+
+    __tablename__ = "city_meet_standards"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    event_type: Mapped[str | None] = mapped_column(String(12))  # individual / relay
+    gender: Mapped[str | None] = mapped_column(String(1))       # M / F / X
+    age_group_lower: Mapped[int | None] = mapped_column(Integer)
+    age_group_upper: Mapped[int | None] = mapped_column(Integer)
+    distance: Mapped[int | None] = mapped_column(Integer)
+    stroke: Mapped[str | None] = mapped_column(String(50))
+    standard_seconds: Mapped[float | None] = mapped_column(Float)
+    standard_formatted: Mapped[str | None] = mapped_column(String(20))
+    season_start: Mapped[int] = mapped_column(Integer, index=True)  # inclusive
+    season_end: Mapped[int] = mapped_column(Integer, index=True)    # inclusive
+
+
+class DivisionConfiguration(Base):
+    """Division assignment (Red/White/Blue) for a team in a season.
+
+    Season-specific and version-controlled through ``division_configs/*.csv``
+    (seeded by ``scripts/import_divisions.py``). The dashboard reads these; edits
+    go through the CSV importer so the read side stays read-only.
+    """
+
+    __tablename__ = "division_configurations"
+    __table_args__ = (
+        UniqueConstraint("season", "team_id", name="uq_division_season_team"),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    season: Mapped[int] = mapped_column(Integer, index=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.id"), index=True)
+    division: Mapped[str] = mapped_column(String(10))  # red / white / blue
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_utcnow)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=_utcnow, onupdate=_utcnow
+    )
+
+    team: Mapped[Team] = relationship()
+
+
+class ExcludedAthlete(Base):
+    """A season-athlete excluded from QT analysis (e.g. year-round swimmers).
+
+    Keyed on the season-scoped ``athletes.id``, so an exclusion applies to that
+    swimmer in that season only — the DOB-free analogue of the old
+    ``excluded_swimmers`` table.
+    """
+
+    __tablename__ = "excluded_athletes"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    athlete_id: Mapped[int] = mapped_column(
+        ForeignKey("athletes.id"), unique=True, index=True
+    )
+    reason: Mapped[str | None] = mapped_column(String(200))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_utcnow)
+
+    athlete: Mapped[Athlete] = relationship()
